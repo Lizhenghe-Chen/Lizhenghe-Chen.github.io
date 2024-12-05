@@ -1,0 +1,80 @@
+site_name: Bunny Chen's Docs
+site_author: Bunny Chen
+# Copyright
+copyright: Copyright &copy; 2024 Lizhenghe-Chen
+repo_url: https://github.com/Lizhenghe-Chen
+# Page tree
+nav:
+  - Home: index.md
+  - About:
+      - "About Me": about.md
+  - blog: blog/index.md
+theme:
+  logo: /assets/images/Avatar.png
+  favicon: /assets/images/Avatar.png
+  name: material
+  custom_dir: overrides
+  features:
+    - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    # switch to light mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    # switch to dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    # switch to system preference
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: green
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to system preference
+plugins:
+  - blog
+  - search:
+extra:
+  #remove the footer copyright
+  generator: false
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
