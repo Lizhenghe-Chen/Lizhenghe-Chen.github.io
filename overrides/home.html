@@ -1,0 +1,86 @@
+<!-- https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks -->
+{% extends "base.html" %}
+
+{% block tabs %}
+{{ super() }}
+
+<!-- Additional styles for landing page -->
+<style>
+    /* Application header should be static for the landing page */
+    .md-header {
+        position: initial;
+    }
+
+    /* Remove spacing, as we cannot hide it completely */
+    .md-main__inner {
+        margin: 0;
+    }
+
+    /* Hide main content for now */
+    .md-content {
+        display: none;
+    }
+
+    /* Override mdx-container，center layout */
+    .mdx-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* Full viewport height */
+    }
+
+    /* Override mdx-hero__content to center the layout */
+    .mdx-hero__content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* set text to white */
+    [data-md-color-scheme="default"] {
+        --md-typeset-color: white;
+
+        /* set h1 to white, and margin-bottom to 0 */
+        h1 {
+            color: #ffffffa5;
+            margin-bottom: 0;
+        }
+    }
+
+    /* Hide table of contents */
+    @media screen and (min-width: 60em) {
+        .md-sidebar--secondary {
+            display: none;
+        }
+    }
+
+    /* Hide navigation */
+    @media screen and (min-width: 76.25em) {
+        .md-sidebar--primary {
+            display: none;
+        }
+    }
+</style>
+
+<!-- Hero for landing page -->
+<section class="mdx-container"
+    style="background-image: url('assets/images/worf.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="md-grid md-typeset">
+        <div class="mdx-hero">
+
+            <!-- Hero image -->
+            <div style="text-align: center;"><img src="assets/images/Avatar.png" alt="" width="40%" height="auto"
+                    style="border-radius: 50px;" draggable="false"></div>
+            <!-- Hero content -->
+            <div class="mdx-hero__content">
+                <h1>{{ config.site_author }}</h1>
+                <p>{{ config.site_description }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+<!-- Application footer -->
+{% block footer %}{% endblock %}

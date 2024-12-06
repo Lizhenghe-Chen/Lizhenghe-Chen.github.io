@@ -1,5 +1,6 @@
 site_name: Bunny Chen's Docs
 site_author: Bunny Chen
+site_description: Bunny Chen's personal Blog and Docs
 # Copyright
 copyright: Copyright &copy; 2024 Lizhenghe-Chen
 repo_url: https://github.com/Lizhenghe-Chen
@@ -58,7 +59,7 @@ theme:
     # switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      
+      primary: black
       toggle:
         icon: material/brightness-auto
         name: Switch to system preference
