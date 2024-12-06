@@ -6,8 +6,7 @@ repo_url: https://github.com/Lizhenghe-Chen
 # Page tree
 nav:
   - Home: index.md
-  - About:
-      - "About Me": about.md
+  - About: about.md
   - blog: blog/index.md
 theme:
   logo: /assets/images/Avatar.png
@@ -42,28 +41,29 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
+
   palette:
-    # switch to light mode
+    # switch to system preference
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
-    # switch to dark mode
+    # switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
-      accent: green
+      primary: white
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
-    # switch to system preference
+    # switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: green
+      
       toggle:
         icon: material/brightness-auto
         name: Switch to system preference
+extra_css:
+  - stylesheets/extra.css
 plugins:
   - blog
   - search:
