@@ -4,7 +4,6 @@ site_description: Bunny Chen's personal Blog and Docs
 
 # Copyright
 copyright: Copyright &copy; 2024 Lizhenghe-Chen
-repo_url: https://bunnychen.top/BunnyChen.github.io/
 # Page tree
 nav:
   - Home: index.md
