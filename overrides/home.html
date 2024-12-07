@@ -34,18 +34,25 @@
     .mdx-hero__content {
         text-align: center;
         margin: 0 auto;
-    }
-
-    /* set text to white */
-    [data-md-color-scheme="default"] {
-        --md-typeset-color: white;
+        color: white;
 
         /* set h1 to white, and margin-bottom to 0 */
         h1 {
-            color: #ffffffa5;
+            color: #ffffffc9;
             margin-bottom: 0;
         }
     }
+
+    section {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+
+    section.visible {
+        opacity: 1;
+    }
+
+
 
     /* Hide table of contents */
     @media screen and (min-width: 60em) {
@@ -63,7 +70,7 @@
 </style>
 
 <!-- Hero for landing page -->
-<section class="mdx-container"
+<section class="mdx-container gradient-section"
     style="background-image: url('assets/images/worf.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="md-grid md-typeset">
         <div class="mdx-hero">
@@ -75,10 +82,55 @@
             <div class="mdx-hero__content">
                 <h1>{{ config.site_author }}</h1>
                 <p>{{ config.site_description }}</p>
+                <a href="{{ 'blog/' | url }}" title="{{ page.next_page.title | e }}"
+                    class="md-button md-button--primary">
+                    My Blog
+                </a>
+                <a href="{{ 'about/' | url }}" title="About Author" class="md-button">
+                    About me
+                </a>
             </div>
         </div>
     </div>
 </section>
+
+<!-- About content -->
+<section class="about-section"
+    style="padding: 20px; background-color: rgba(255, 255, 255, 0); display: flex; justify-content: center; align-items: center;">
+    <div class="md-grid md-typeset" style="text-align: center;">
+        <h2>Hi there 👋, I am</h2>
+        <h1>{{ config.site_author }}</h1>
+        <p>4 years studied at <a href="https://www.xjtlu.edu.cn"><strong>The Xi&#39;an JIAOTONG-LIVERPOOL
+                    UNIVERSITY</strong></a> & <a href="https://www.liverpool.ac.uk"><strong>The UNIVERSITY OF
+                    LIVERPOOL</strong></a> for Computer Science<br>
+            1 year in <a href="https://www.bristol.ac.uk"><strong>The UNIVERSITY OF Bristol</strong></a> for Aerial
+            Robotics MSc.<br>
+            Now working at <a href="https://www.hkust-gz.edu.cn"><strong>The Hong Kong University of Science and
+                    Technology (Guangzhou)</strong></a></p>
+        <hr class="pink">
+    </div>
+</section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const sections = document.querySelectorAll('section');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                } else {
+                    entry.target.classList.remove('visible');
+                }
+            });
+        }, {
+            threshold: 0.5
+        });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    });
+</script>
 
 {% endblock %}
 
