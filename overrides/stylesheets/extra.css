@@ -13,7 +13,7 @@
   --md-default-bg-color: #ffffff;
 
   --md-body-bg-color: #22272e;
-  --md-header-bg-color: rgba(255, 255, 255, 0);
+  --md-header-bg-color: rgba(255, 255, 255, 0.7);
   --md-footer-fg-color: var(--link-color);
   --md-accent-fg-color: #00ff5e;
 
@@ -30,6 +30,7 @@
 
 /* Dark Mode */
 [data-md-color-scheme="slate"] {
+
   --md-primary-fg-color: #22272e;
   --md-primary-bg-color: #adbac7;
 
@@ -49,12 +50,18 @@
   --md-typeset-btn-hover-color: #55aea6;
 
   --md-admonition-pythontutor-color: #30363f;
+
+
 }
 
 /* Darkmode link color override*/
 [data-md-color-scheme="slate"][data-md-color-primary="black"],
 [data-md-color-scheme="slate"][data-md-color-primary="white"] {
   --md-typeset-a-color: var(--link-color);
+
+  .md-header {
+    background-color: var(--md-header-bg-color);
+  }
 }
 
 [data-md-color-scheme="default"][data-md-color-primary="black"],
@@ -86,11 +93,21 @@
 }
 
 .md-header {
-  box-shadow: none;
-  transition: none;
   backdrop-filter: saturate(120%) blur(3px);
   /* Gaussian blur */
   -webkit-backdrop-filter: saturate(120%) blur(3px);
   /* Safari */
   background-color: var(--md-header-bg-color);
+}
+
+/* 移动端样式 */
+@media (max-width: 1000px) {
+  .md-header {
+    backdrop-filter: none;
+    /* 移动端禁用虚化 */
+    -webkit-backdrop-filter: none;
+    /* Safari 移动端禁用虚化 */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* 使用半透明背景色 */
+  }
 }
