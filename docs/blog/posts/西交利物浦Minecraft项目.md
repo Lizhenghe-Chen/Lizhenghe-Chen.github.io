@@ -1,16 +1,14 @@
 ---
 title: 西交利物浦大学 Minecraft 项目
-date: 2023-07-28
+date: 2024-03-10
 author: [bunnychen]
 ---
-
 <!-- more -->
 
 <center>
 <iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=669348082&bvid=BV1va4y177BT&cid=225790985&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </center>
 <br>
-
 
 # 目前项目已经归档不再更新，所以我们决定将地图文件分享给大家！
 

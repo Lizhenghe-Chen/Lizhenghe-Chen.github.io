@@ -80,7 +80,7 @@
                     style="border-radius: 50px;" draggable="false"></div>
             <!-- Hero content -->
             <div class="mdx-hero__content">
-                <h1>{{ config.site_author }}</h1>
+                <h1>{{ config.site_name }}</h1>
                 <p>{{ config.site_description }}</p>
                 <a href="{{ 'blog/' | url }}" title="{{ page.next_page.title | e }}"
                     class="md-button md-button--primary">
@@ -135,4 +135,6 @@
 {% endblock %}
 
 <!-- Application footer -->
-{% block footer %}{% endblock %}
+<!-- {% block footer %} {{ super() }}
+version 0.1
+{% endblock %} -->

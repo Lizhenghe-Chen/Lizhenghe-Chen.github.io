@@ -5,7 +5,7 @@
 :root>* {
   /* custom link text color */
   --link-color: #009dff;
-  
+
   --md-primary-fg-color: #ffffff;
   --md-primary-bg-color: #1d1d20;
 
@@ -42,9 +42,10 @@
   --md-admonition-fg-color: #adbac7;
 
   /* body text color */
-  --md-typeset-color: #ffffff;
-
-  --md-typeset-btn-color: #52bbb1;
+  --md-typeset-color: #ffffffc0;
+  /* .md-typeset h1  */
+  --md-default-fg-color--light: #ffffff;
+  --md-typeset-btn-color: #00dfc9;
   --md-typeset-btn-hover-color: #55aea6;
 
   --md-admonition-pythontutor-color: #30363f;

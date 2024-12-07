@@ -3,7 +3,7 @@ site_author: Bunny Chen
 site_description: Bunny Chen's personal Blog and Docs
 
 # Copyright
-copyright: Copyright &copy; 2024 Lizhenghe-Chen
+copyright: Copyright &copy; 2024 Lizhenghe-Chen | v1.0
 repo_url: https://bunnychen.top/BunnyChenDoc/
 # Page tree
 nav:
@@ -11,10 +11,13 @@ nav:
   - About: about.md
   - blog: blog/index.md
   # use the file name as the title
-  - GPTDocs:
-      - GPTRelated/Sherpa-onnx 语音转文字.md
-      - GPTRelated/UnityGPTChat.md
-  - MkDocsNote.md
+
+  - Others:
+      - GPTDocs:
+          - others/GPTRelated/Sherpa-onnx 语音转文字.md
+          - others/GPTRelated/UnityGPTChat.md
+      - MkDocsTutorials:
+          - others/mkdocsTutorials/MkDocsNote.md
 theme:
   logo: /assets/images/Avatar.png
   favicon: /assets/images/Avatar.png
