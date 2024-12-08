@@ -16,10 +16,9 @@ icon: material/message-settings-outline
 ······················································································
 ```
 
-# 介绍
+## 介绍
 
 Unity项目文件在：[Lizhenghe-Chen/Unity-GPT-Test](https://github.com/Lizhenghe-Chen/Unity-GPT-Test){ .md-button }
-
 
 平台支持（未测试则留空）：
 
@@ -36,9 +35,9 @@ AI+游戏恐怕在所难免，虽然现在没有成熟的技术和解决方案�
 * [ ] GPT控制游戏内角色行动
 * [ ] 。。。
 
-# 部署GPT
+## 部署GPT
 
-## 接口规范
+### 接口规范
 
 这里使用 [OpenAI API chat 的统一规范格式][https://platform.openai.com/docs/api-reference/chat/create)，大部分模型和平台都有这个接口规范的：
 
@@ -85,7 +84,7 @@ curl https://api.openai.com/v1/chat/completions \
     * **功能简介** ：这是模型本身的作用，根据系统设置的上下文响应用户输入。
   * * **何时使用** ：当模型回复用户的查询或遵循系统的指示时，模型会自动代入此角色。
 
-## 大语言模型平台（LLM）
+### 大语言模型平台（LLM）
 
 以下任意一种平台均可使用统一的OpenAI规范接口，所以都只用更改网址、API Key和model名称即可！
 
@@ -106,17 +105,17 @@ curl https://api.openai.com/v1/chat/completions \
   * 然后简单的配置好，指定Ollama为内核即可
   * 为了能够像OpenAI那样使用网络API接口，在 设置>工具>API密钥 里申请一个密钥，然后点击“阅读API文档”，点击“Authorize”将密钥复制进去就可以测试接口了：
   * 在你创建完一个workspace后，就可以查阅模型名称：
-    * ![1729750316805][image/README/1729750316805.png "查阅当前可运行模型名称")
-  * 将查阅的模型名称输入到聊天API中测试：	![1729750515274][image/README/1729750515274.png)
+    * ![1733626820158](image/UnityGPTChat/1733626820158.png)
+  * 将查阅的模型名称输入到聊天API中测试：	![1733626844161](image/UnityGPTChat/1733626844161.png)
   * 之后你只需要将上述特定的json数据请求格式发送到：
 
   ```bash
   http://localhost:3001/api/v1/openai/chat/completions
   ```
 
-## 然后就是Unity C#代码的简单解析：
+### 然后就是Unity C#代码的简单解析：
 
-### 处理发送信息
+#### 处理发送信息
 
 这个连接可以帮助你理解：[聊天接口 /v1/chat/completions - API2D][https://api2d-doc.apifox.cn/)
 
@@ -168,7 +167,7 @@ var jsonString = JsonConvert.SerializeObject(_simpleOpenAIRequest).ToLower();
         }
 ```
 
-### 处理接受信息
+#### 处理接受信息
 
 gpt的回调也是Json形式，同样可以把他们再转会C#的数据格式
 
@@ -211,8 +210,8 @@ gpt的回调也是Json形式，同样可以把他们再转会C#的数据格式
 
 **具体细节还请参考：[OpenAIChatGPT.cs][Assets/GPTModule/Scripts/OpenAIChatGPT.cs)**
 
-# Unity中配置：
+## Unity中配置：
 
 **GPT相关的配置设置都放在[ GPTConfig.cs][Assets/GPTModule/Scripts/GptModuleConfig.cs)中，这个类主要是用来设置GPT的一些参数，如API Key、模型名称、请求地址等等，在Unityinspector中附在[ OpenAIChatGPT.cs][Assets/GPTModule/Scripts/OpenAIChatGPT.cs)组件物体上:**
 
-![1729752645787][image/README/1729752645787.png)
+![1733626862134](image/UnityGPTChat/1733626862134.png)
