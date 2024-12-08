@@ -25,6 +25,10 @@
 
 ![1733589240626](image/MkDocsNote/1733589240626.png)
 
+## 重写覆盖页面：
+
+[Customization - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks)
+
 ## 原生内置图标
 
 如果要在文章list链接里显示图标，可以在开头增加：
