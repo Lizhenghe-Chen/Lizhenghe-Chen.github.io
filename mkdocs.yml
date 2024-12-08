@@ -95,7 +95,6 @@ plugins:
   #     type: datetime
 
 extra:
-  base_path: "/BunnyChenDoc"
   #remove the footer copyright
   generator: false
 markdown_extensions:
