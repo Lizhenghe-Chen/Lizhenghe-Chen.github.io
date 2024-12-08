@@ -1,95 +1,88 @@
 /* Color Settings */
-/* https://github.com/squidfunk/mkdocs-material/blob/6b5035f5580f97532d664e3d1babf5f320e88ee9/src/assets/stylesheets/main/_colors.scss */
-/* https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors */
 /* Dark and Light mode shared root settings */
-:root>* {
-  /* custom link text color */
-  --link-color: #009dff;
-  
-  --md-primary-fg-color: #ffffff;
-  --md-primary-bg-color: #1d1d20;
+:root {
+  --link-color: #009dff; /* 链接的颜色 */
 
-  --md-default-fg-color: #1d1d20;
-  --md-default-bg-color: #ffffff;
+  --md-primary-fg-color: #ffffff; /* 主色前景（如标题、重点文字） */
+  --md-primary-bg-color: #1d1d20; /* 主色背景 */
 
-  --md-body-bg-color: #22272e;
-  --md-header-bg-color: rgba(255, 255, 255, 0);
-  --md-footer-fg-color: var(--link-color);
-  --md-accent-fg-color: #00ff5e;
+  --md-default-fg-color: #1d1d20; /* 默认前景（正文文本颜色） */
+  --md-default-bg-color: #ffffff; /* 默认背景颜色 */
 
-  --md-admonition-fg-color: #1d1d20;
+  --md-body-bg-color: #22272e; /* 页面主体的背景颜色 */
+  --md-header-bg-color: rgba(255, 255, 255, 0.7); /* 页眉的背景颜色 */
+  --md-footer-fg-color: var(--link-color); /* 页脚文本的颜色 */
+  --md-accent-fg-color: #00ff5e; /* 突出显示的强调颜色（如按钮、活动元素） */
 
-  --md-typeset-color: #1d1d20;
+  --md-admonition-fg-color: #1d1d20; /* 警告框的文本颜色 */
 
-  --md-typeset-btn-color: #55aea6;
-  --md-typeset-btn-hover-color: #52bbb1;
+  --md-typeset-color: #1d1d20; /* 正文排版的默认文本颜色 */
+  --md-typeset-btn-color: #55aea6; /* 按钮的默认颜色 */
+  --md-typeset-btn-hover-color: #52bbb1; /* 按钮悬停时的颜色 */
 
-  --md-admonition-pythontutor-color: #eee;
-
+  --md-admonition-pythontutor-color: #eee; /* Python Tutor 警告框的背景颜色 */
 }
 
 /* Dark Mode */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #22272e;
-  --md-primary-bg-color: #adbac7;
+  --md-primary-fg-color: #22272e; /* 深色模式下主色前景 */
+  --md-primary-bg-color: #adbac7; /* 深色模式下主色背景 */
 
-  --md-default-fg-color: #adbac7;
-  --md-default-bg-color: #22272e;
+  --md-default-fg-color: #adbac7; /* 深色模式下正文前景 */
+  --md-default-bg-color: #22272e; /* 深色模式下正文背景 */
 
-  --md-body-bg-color: #22272e;
-  --md-header-bg-color: rgba(34, 39, 46, 0.8);
+  --md-body-bg-color: #22272e; /* 深色模式下页面主体背景 */
+  --md-header-bg-color: rgba(34, 39, 46, 0.8); /* 深色模式下页眉背景颜色 */
 
-  --md-admonition-fg-color: #adbac7;
+  --md-admonition-fg-color: #adbac7; /* 深色模式下警告框的文本颜色 */
 
-  /* body text color */
-  --md-typeset-color: #ffffff;
+  --md-typeset-color: #ffffffc0; /* 深色模式下正文文本颜色 */
+  --md-typeset-btn-color: #00dfc9; /* 深色模式下按钮的默认颜色 */
+  --md-typeset-btn-hover-color: #55aea6; /* 深色模式下按钮悬停时的颜色 */
 
-  --md-typeset-btn-color: #52bbb1;
-  --md-typeset-btn-hover-color: #55aea6;
-
-  --md-admonition-pythontutor-color: #30363f;
-}
-
-/* Darkmode link color override*/
-[data-md-color-scheme="slate"][data-md-color-primary="black"],
-[data-md-color-scheme="slate"][data-md-color-primary="white"] {
-  --md-typeset-a-color: var(--link-color);
-}
-
-[data-md-color-scheme="default"][data-md-color-primary="black"],
-[data-md-color-scheme="default"][data-md-color-primary="white"] {
-  --md-typeset-a-color: var(--link-color);
+  --md-admonition-pythontutor-color: #30363f; /* 深色模式下 Python Tutor 警告框的背景颜色 */
 }
 
 /* Light Mode */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #ffffff;
-  --md-primary-bg-color: #000000;
+  --md-primary-fg-color: #ffffff; /* 浅色模式下主色前景 */
+  --md-primary-bg-color: #000000; /* 浅色模式下主色背景 */
 
-  --md-default-fg-color: #000000;
-  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #000000; /* 浅色模式下正文前景 */
+  --md-default-bg-color: #ffffff; /* 浅色模式下正文背景 */
 
-  --md-body-bg-color: #f5f5f5;
-  --md-header-bg-color: rgba(255, 255, 255, 0.6);
+  --md-body-bg-color: #f5f5f5; /* 浅色模式下页面主体背景 */
+  --md-header-bg-color: rgba(255, 255, 255, 0.6); /* 浅色模式下页眉背景颜色 */
 
-  --md-admonition-fg-color: var(--link-color);
+  --md-admonition-fg-color: var(--link-color); /* 浅色模式下警告框文本颜色 */
 
-  /* body text color */
-  --md-typeset-color: #000000;
+  --md-typeset-color: #000000; /* 浅色模式下正文文本颜色 */
+  --md-typeset-btn-color: #55aea6; /* 浅色模式下按钮默认颜色 */
+  --md-typeset-btn-hover-color: #52bbb1; /* 浅色模式下按钮悬停时颜色 */
 
-
-  --md-typeset-btn-color: #55aea6;
-  --md-typeset-btn-hover-color: #52bbb1;
-
-  --md-admonition-pythontutor-color: var(--link-color);
+  --md-admonition-pythontutor-color: var(--link-color); /* 浅色模式下 Python Tutor 警告框背景颜色 */
 }
 
+/* Link Color Override for Both Modes */
+[data-md-color-scheme][data-md-color-primary="black"],
+[data-md-color-scheme][data-md-color-primary="white"] {
+  --md-typeset-a-color: var(--link-color); /* 链接颜色覆盖 */
+  .md-header {
+    background-color: var(--md-header-bg-color); /* 页眉背景颜色覆盖 */
+  }
+}
+
+/* Header Styles */
 .md-header {
-  box-shadow: none;
-  transition: none;
-  backdrop-filter: saturate(120%) blur(3px);
-  /* Gaussian blur */
-  -webkit-backdrop-filter: saturate(120%) blur(3px);
-  /* Safari */
-  background-color: var(--md-header-bg-color);
+  backdrop-filter: saturate(120%) blur(3px); /* 页眉的模糊效果 */
+  -webkit-backdrop-filter: saturate(120%) blur(3px); /* Safari 页眉模糊效果 */
+  background-color: var(--md-header-bg-color); /* 页眉背景颜色 */
+}
+
+/* Mobile Styles */
+@media (max-width: 1000px) {
+  .md-header {
+    backdrop-filter: none; /* 移动端禁用模糊效果 */
+
+  }
 }

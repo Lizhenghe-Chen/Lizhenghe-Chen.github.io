@@ -3,7 +3,7 @@ site_author: Bunny Chen
 site_description: Bunny Chen's personal Blog and Docs
 
 # Copyright
-copyright: Copyright &copy; 2024 Lizhenghe-Chen | v1.0.1
+copyright: Copyright &copy; 2024 Lizhenghe-Chen | v1.0.2
 repo_url: https://bunnychen.top/BunnyChenDoc/
 # Page tree
 nav:
@@ -94,6 +94,7 @@ plugins:
       type: datetime
 
 extra:
+  base_path: "/BunnyChenDoc"
   #remove the footer copyright
   generator: false
 markdown_extensions:
