@@ -90,9 +90,9 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: datetime
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: datetime
 
 extra:
   base_path: "/BunnyChenDoc"
