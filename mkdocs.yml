@@ -14,14 +14,14 @@ nav:
   # use the file name as the title
 
   - Others:
-      - GPTDocs:
+      - --GPTDocs--:
           - others/GPTRelated/Sherpa-onnx 语音转文字.md
           - others/GPTRelated/UnityGPTChat.md
-      - MkDocsTutorials:
+      - --MkDocsTutorials--:
           - others/mkdocsTutorials/MkDocsNote.md
 theme:
-  logo: /assets/images/Avatar.png
-  favicon: /assets/images/Avatar.png
+  logo: assets/images/Avatar.png
+  favicon: assets/images/Avatar.png
   name: material
   custom_dir: overrides
   features:

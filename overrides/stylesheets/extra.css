@@ -45,14 +45,12 @@
 
 /* Light Mode */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: #ffffff; /* 浅色模式下主色前景 */
+  --md-primary-fg-color: #F6F6F6; /* 浅色模式下主色前景 */
   --md-primary-bg-color: #000000; /* 浅色模式下主色背景 */
 
   --md-default-fg-color: #000000; /* 浅色模式下正文前景 */
   --md-default-bg-color: #ffffff; /* 浅色模式下正文背景 */
-
-  --md-body-bg-color: #f5f5f5; /* 浅色模式下页面主体背景 */
-  --md-header-bg-color: rgba(255, 255, 255, 0.6); /* 浅色模式下页眉背景颜色 */
+  --md-header-bg-color: #ffffff99; /* 浅色模式下页眉背景颜色 */
 
   --md-admonition-fg-color: var(--link-color); /* 浅色模式下警告框文本颜色 */
 
