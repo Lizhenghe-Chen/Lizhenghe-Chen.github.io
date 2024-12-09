@@ -1,6 +1,3 @@
----
-icon: material/message-settings-outline
----
 # Unity GPT Test
 
  Try some interesting things with Unity and GPT, and most importantly: Learning!
@@ -22,9 +19,9 @@ Unity项目文件在：[Lizhenghe-Chen/Unity-GPT-Test](https://github.com/Lizhen
 
 平台支持（未测试则留空）：
 
-| Architecture | Android | iOS | Windows | macOS | linux | HarmonyOS | WebGL |
-| ------------ | ------- | --- | ------- | ----- | ----- | --------- | ----- |
-|              | ✅      |     | ✅      |       |       |           | 🚫    |
+| Android | iOS | Windows | macOS | linux | HarmonyOS | WebGL |
+| ------- | --- | ------- | ----- | ----- | --------- | ----- |
+| ✅      |     | ✅      |       |       |           | 🚫    |
 
 AI+游戏恐怕在所难免，虽然现在没有成熟的技术和解决方案来时间GPT和游戏的深度融合，但是探索的脚步无法阻挡，所以尝试用相对简单的方式实现Unity+GPT的一些功能：
 

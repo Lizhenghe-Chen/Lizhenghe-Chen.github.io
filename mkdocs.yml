@@ -3,26 +3,18 @@ site_author: Bunny Chen
 site_description: Bunny Chen's personal Blog and Docs
 
 # Copyright
-copyright: Copyright &copy; 2024 Lizhenghe-Chen | v1.0.2
+copyright: Copyright &copy; 2019 - 2024 Lizhenghe-Chen | v1.0.3
 site_url: https://bunnychen.top/BunnyChenDoc/
 repo_url: https://bunnychen.top/BunnyChenDoc/
-# Page tree
-nav:
-  - Home: index.md
-  - About: about.md
-  - blog: blog/index.md
-  # use the file name as the title
+repo_name: BunnyChenDoc
 
-  - Others:
-      - --GPTDocs--:
-          - others/GPTRelated/Sherpa-onnx 语音转文字.md
-          - others/GPTRelated/UnityGPTChat.md
-      - --MkDocsTutorials--:
-          - others/mkdocsTutorials/MkDocsNote.md
 theme:
   logo: assets/images/Avatar.png
   favicon: assets/images/Avatar.png
   name: material
+  font: false
+  icon:
+    repo: material/home
   custom_dir: overrides
   features:
     - announce.dismiss
@@ -35,22 +27,25 @@ theme:
     - content.tabs.link
     - content.tooltips
     # - header.autohide
-    # - navigation.expand
+    #https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation
     - navigation.footer
     - navigation.indexes
+    # currently conflicts with the home page scroll effect
     # - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
-    # - navigation.prune
-    - navigation.sections
+
+    - navigation.prune
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.path
+    # - navigation.sections #
+    # - navigation.expand
     - navigation.top
     - navigation.tracking
     - search.highlight
     # - search.share
     - search.suggest
-    - toc.follow
+    # - toc.follow
     # - toc.integrate
 
   palette:
@@ -88,22 +83,85 @@ plugins:
       draft_if_future_date: true # 设置如果blog的日期是未来的话，就会被当成草稿不会被发布
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: none
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: false
+      auto_caption: false
+      caption_position: bottom
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  #     type: datetime
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: datetime
 
 extra:
   #remove the footer copyright
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Lizhenghe-Chen
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/lizhenghe-chen/
+      name: LinkedIn
+    - icon: material/file-document-edit
+      link: https://blog.csdn.net/weixin_46146935
+      name: CSDN
+      
+# https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/
 markdown_extensions:
+  - abbr
+
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - admonition
+  - pymdownx.caret
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  - pymdownx.tasklist
-  - attr_list
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - About: about.md
+  - blog: blog/index.md
+  # use the file name as the title
+
+  - Docs:
+      - GPTDocs:
+          - docs/GPTRelated/index.md
+          - docs/GPTRelated/Agent.md
+          - docs/GPTRelated/UnityGPTChat.md
+          - docs/GPTRelated/Sherpa Onnx ASR STT实战.md
+          - docs/GPTRelated/Sherpa-onnx STT Windows.md
+      - MkDocsTutorials:
+          - docs/mkdocsTutorials/index.md
+          - docs/mkdocsTutorials/MkDocsNote.md

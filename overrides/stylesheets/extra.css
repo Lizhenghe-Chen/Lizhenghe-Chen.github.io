@@ -12,7 +12,7 @@
   --md-body-bg-color: #22272e; /* 页面主体的背景颜色 */
   --md-header-bg-color: rgba(255, 255, 255, 0.7); /* 页眉的背景颜色 */
   --md-footer-fg-color: var(--link-color); /* 页脚文本的颜色 */
-  --md-accent-fg-color: #00ff5e; /* 突出显示的强调颜色（如按钮、活动元素） */
+
 
   --md-admonition-fg-color: #1d1d20; /* 警告框的文本颜色 */
 
@@ -27,7 +27,7 @@
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color: #22272e; /* 深色模式下主色前景 */
   --md-primary-bg-color: #adbac7; /* 深色模式下主色背景 */
-
+  --md-accent-fg-color: #00ff5e; /* 突出显示的强调颜色（如按钮、活动元素） */
   --md-default-fg-color: #adbac7; /* 深色模式下正文前景 */
   --md-default-bg-color: #22272e; /* 深色模式下正文背景 */
 
@@ -47,7 +47,7 @@
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #F6F6F6; /* 浅色模式下主色前景 */
   --md-primary-bg-color: #000000; /* 浅色模式下主色背景 */
-
+  --md-accent-fg-color: #00ff5e; /* 突出显示的强调颜色（如按钮、活动元素） */
   --md-default-fg-color: #000000; /* 浅色模式下正文前景 */
   --md-default-bg-color: #ffffff; /* 浅色模式下正文背景 */
   --md-header-bg-color: #ffffff99; /* 浅色模式下页眉背景颜色 */

@@ -1,7 +1,4 @@
----
-icon: material/microphone-message
----
-# Sherpa-onnx 语音转文字
+# Sherpa-onnx Windows 运行
 
 Windows Install :[93 新一代 Kaldi 部署框架 sherpa-onnx 之 Windows 安装 (适合0基础，手把手教)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Um421V75A?spm_id_from=333.788.videopod.sections&vd_source=964bbd88f350a12d2453698dd08ec8ca)
 
