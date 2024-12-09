@@ -1,26 +1,15 @@
 <!-- https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks -->
 {% extends "base.html" %}
+{% block content %}
+
+{% endblock %}
+
 
 {% block tabs %}
 {{ super() }}
 
 <!-- Additional styles for landing page -->
 <style>
-    /* Application header should be static for the landing page */
-    .md-header {
-        position: initial;
-    }
-
-    /* Remove spacing, as we cannot hide it completely */
-    .md-main__inner {
-        margin: 0;
-    }
-
-    /* Hide main content for now */
-    .md-content {
-        display: none;
-    }
-
     /* Override mdx-container，center layout */
     .mdx-container {
         display: flex;
@@ -108,10 +97,7 @@
             Now working at <a href="https://www.hkust-gz.edu.cn"><strong>The Hong Kong University of Science and
                     Technology (Guangzhou)</strong></a></p>
         <hr>
-        <br>
-        <br>
-        <br>
-        <br><br><br><br><br>
+        <br><br>
     </div>
 </section>
 <script>
