@@ -9,6 +9,15 @@ def extract_h1_title(md_file_path):
                 return match.group(1)
     return os.path.splitext(os.path.basename(md_file_path))[0]
 
+def extract_h2_titles(md_file_path):
+    h2_titles = []
+    with open(md_file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            match = re.match(r'## (.+)', line)
+            if match:
+                h2_titles.append(match.group(1))
+    return h2_titles
+
 def generate_md_links(directory):
     md_files = []
     for root, _, files in os.walk(directory):
@@ -17,7 +26,15 @@ def generate_md_links(directory):
                 relative_path = os.path.relpath(os.path.join(root, file), directory)
                 md_files.append(relative_path)
     md_files.sort()  # 按文件名排序
-    links = [f"<a href='{f[:-3]}'>{extract_h1_title(os.path.join(directory, f))}</a>" for f in md_files]
+    links = []
+    for f in md_files:
+        h1_title = extract_h1_title(os.path.join(directory, f))
+        h2_titles = extract_h2_titles(os.path.join(directory, f))
+        link = f"<a href='{f[:-3]}'>{h1_title}</a>"
+        if h2_titles:
+            sub_links = "".join([f"<li>{title}</li>" for title in h2_titles])
+            link += f"<ul>{sub_links}</ul>"
+        links.append(link)
     return links
 
 def process_directory(root_dir):

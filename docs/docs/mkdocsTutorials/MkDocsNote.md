@@ -70,11 +70,8 @@ mkdocs.yml中加入：
 !!! quote
 
 ??? 点击展开
-    展开的内容  
-    ```
-    ??? 点击展开
-        展开的内容
-    ```
+    展开的内容
+    ``   ??? 点击展开         展开的内容   ``
 
 以下是 Material for MkDocs 主题中默认支持的标记类型及用途：
 
@@ -93,3 +90,9 @@ mkdocs.yml中加入：
 | **example** | `!!! example`  | 提供具体的示例说明                                 |
 |  **quote**  | `!!! quote`    | 引用块，通常用于显示引用或文摘                     |
 |       expand       | `??? expand`   | 提供展开功能                                       |
+
+## GitHub Page 部署 - Actions
+
+[Publishing your site - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)
+
+需要在**run**:**pip** 中增加命令行以满足自己的依赖需求
