@@ -83,17 +83,17 @@ plugins:
       draft_if_future_date: true # 设置如果blog的日期是未来的话，就会被当成草稿不会被发布
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: zoom
-      slide_effect: none
-      width: 100%
-      height: auto
-      zoomable: true
-      draggable: false
-      auto_caption: false
-      caption_position: bottom
+  # - glightbox:
+  #     touchNavigation: true
+  #     loop: false
+  #     effect: zoom
+  #     slide_effect: none
+  #     width: 100%
+  #     height: auto
+  #     zoomable: true
+  #     draggable: false
+  #     auto_caption: false
+  #     caption_position: bottom
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
   - git-revision-date-localized:
       enable_creation_date: false
