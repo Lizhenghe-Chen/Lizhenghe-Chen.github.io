@@ -116,13 +116,19 @@ extra:
 # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/
 markdown_extensions:
   - abbr
-
+  - tables
   - attr_list
   - def_list
   - footnotes
   - md_in_html
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/?h=permanent#table-of-contents
   - toc:
-      permalink: true
+      toc_depth: 3
+      permalink: ヾ(•ω•`)o
+      permalink_title: Title link
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:

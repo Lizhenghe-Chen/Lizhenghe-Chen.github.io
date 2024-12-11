@@ -22,6 +22,24 @@ def extract_h2_titles(md_file_path):
     return h2_titles
 
 
+# def extract_h3_titles(md_file_path):
+#     h3_titles = []
+#     with open(md_file_path, "r", encoding="utf-8") as file:
+#         for line in file:
+#             match = re.match(r"### (.+)", line)
+#             if match:
+#                 # replace '*' with ''
+#                 h3_titles.append(match.group(1).replace("*", ""))
+#     return h3_titles
+def slugify(title):
+    # 根据 `case: lower` 的规则，将字符串转换为小写
+    slug = title.lower()
+    # 替换空格为 `-`（常见 slug 生成规则）
+    slug = re.sub(r'\s+', '-', slug)
+    # 移除特殊字符（如需保留特殊字符，此步骤可以省略）
+    slug = re.sub(r'[^\w\-]', '', slug)
+    return slug
+
 def generate_md_links(directory):
     md_files = []
     for root, _, files in os.walk(directory):
@@ -34,9 +52,12 @@ def generate_md_links(directory):
     for f in md_files:
         h1_title = extract_h1_title(os.path.join(directory, f))
         h2_titles = extract_h2_titles(os.path.join(directory, f))
+        # h3_titles = extract_h3_titles(os.path.join(directory, f))
         link = f"<a href='{f[:-3]}'>{h1_title}</a>"
         if h2_titles:
-            sub_links = "".join([f"<li>{title}</li>" for title in h2_titles])
+            # use # to add permnent link
+            # sub_links = "".join([f"<li>{title}</li>" for title in h2_titles])
+            sub_links="".join([f"<li><a href='{f[:-3]}#{slugify(title)}'>{title}</a></li>" for title in h2_titles])
             link += f"<ul>{sub_links}</ul>"
         links.append(link)
     return links
