@@ -15,7 +15,7 @@
 
 ## 介绍
 
-Unity项目文件在：[Lizhenghe-Chen/Unity-GPT-Test](https://github.com/Lizhenghe-Chen/Unity-GPT-Test){ .md-button }
+Unity项目文件在(暂不对外开放)：[Lizhenghe-Chen/Unity-GPT-Test](https://github.com/Lizhenghe-Chen/Unity-GPT-Test){ .md-button }
 
 平台支持（未测试则留空）：
 
@@ -28,7 +28,7 @@ AI+游戏恐怕在所难免，虽然现在没有成熟的技术和解决方案�
 * [X] 在Untiy内实现和ChatGPT或本地大模型的文字对话
 * [X] 在Untiy内实现和ChatGPT或本地大模型的文字对话+实现语音交流
 * [X] 实现GPT控制游戏内场景
-* [ ] 数字人（动作、表情、唇动、TTS和STT）
+* [X] 数字人（动作、表情、唇动、TTS和STT）
 * [ ] GPT控制游戏内角色行动
 * [ ] 。。。
 
@@ -90,11 +90,13 @@ curl https://api.openai.com/v1/chat/completions \
 
   * 同样可以使用Open AI规范的形式，参考：[OpenAI compatibility · Ollama Blog][https://ollama.com/blog/openai-compatibility)
   * 只要下载并部署好Ollama并安装好指定的模型即可
-  * 常用的Ollama环境变量设置（[Global Configuration Variables for Ollama][OllamaGlobalConfiguration.md)）：
-    * `OLLAMA_ORIGINS`: 允许的来源，用于跨域请求，如果遇到（CORS）问题，可以设置变量为 `*`
-    * `OLLAMA_MODELS`: 指定模型下载存储路径，默认是 `$HOME/.ollama/models`
-    * `OLLAMA_HOST`: 服务器端口地址，默认是 `http://127.0.0.1:11434`
-    * `OLLAMA_KEEP_ALIVE`: 模型激活后的保持时间，默认是5分钟，这会在加载大体量模型但常用的时候每一次请求都要重新加载模型，所以可以设置一个较长的时间如5h
+  * > 常用的Ollama环境变量设置（[Global Configuration Variables for Ollama · Issue #2941 · ollama/ollama](https://github.com/ollama/ollama/issues/2941#issuecomment-2322778733)）：
+    >
+    > * `OLLAMA_ORIGINS`: 允许的来源，用于跨域请求，如果遇到（CORS）问题，可以设置变量为 `*`
+    > * `OLLAMA_MODELS`: 指定模型下载存储路径，默认是 `$HOME/.ollama/models`
+    > * `OLLAMA_HOST`: 服务器端口地址，默认是 `http://127.0.0.1:11434`
+    > * `OLLAMA_KEEP_ALIVE`: 模型激活后的保持时间，默认是5分钟，这会在加载大体量模型但常用的时候每一次请求都要重新加载模型，所以可以设置一个较长的时间如5h
+    >
 * 如果使用AnythingLLM搭建本地知识库
 
   * 确保Ollama已经安装

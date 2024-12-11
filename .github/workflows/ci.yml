@@ -25,6 +25,9 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
+      - name: Run generate_file_list.py
+        run: |
+          python docs/assets/images/scripts/generate_file_list.py  # 运行脚本
       - run: pip install mkdocs-material 
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-glightbox

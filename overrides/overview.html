@@ -2,10 +2,11 @@
 
 {% block content %}
 {{ super() }}
+<h3> ◀️ 请通过侧面导航栏浏览章节内容</h3>
 <div id="file-list-container"></div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
         fetch('file_list.html')
             .then(response => {
                 if (!response.ok) {
