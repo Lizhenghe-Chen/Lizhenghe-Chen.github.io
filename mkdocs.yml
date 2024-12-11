@@ -100,7 +100,6 @@ plugins:
       type: datetime
 
 extra:
-  draft: true
   #remove the footer copyright
   generator: false
   social:

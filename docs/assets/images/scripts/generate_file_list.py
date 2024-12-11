@@ -60,3 +60,4 @@ def process_directory(root_dir):
 if __name__ == "__main__":
     root_directory = "./docs/docs"  # 可以根据需要修改根目录
     process_directory(root_directory)
+    print("File list generated successfully!")
