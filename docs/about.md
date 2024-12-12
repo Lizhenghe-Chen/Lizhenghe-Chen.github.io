@@ -77,4 +77,3 @@ public class LizhengheChen {
 [LinkedIn](https://www.linkedin.com/in/lizhenghe-chen){ .md-button }
 [Video Works](https://space.bilibili.com/34871506){ .md-button }
 [ArtStation](https://www.artstation.com/lizhenghe_chen){ .md-button }
-[Unity-GPT-Test](https://github.com/Lizhenghe-Chen/Unity-GPT-Test){ .md-button }
