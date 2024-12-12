@@ -1,0 +1,28 @@
+<!-- https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks -->
+{% extends "base.html" %}
+{% block content %}
+{{ super() }}
+
+<div class="button-container">
+    <button class="md-button" onclick="window.open('https://github.com/Lizhenghe-Chen')">My GitHub</button>
+    <!-- <button class="md-button" onclick="window.location.href=('games')">我的游戏 Games</button> -->
+    <button class="md-button" onclick="window.open('https://blog.csdn.net/weixin_46146935?type=blog')">CSDN</button>
+    <button class="md-button" onclick="window.open('https://bunnychen.tuchong.com/')">摄影作品Photographs</button>
+    <button class="md-button" onclick="window.open('https://www.linkedin.com/in/lizhenghe-chen')">领英LinkedIn</button>
+    <button class="md-button" onclick="window.open('https://space.bilibili.com/34871506')">视频作品</button>
+    <!-- <button class="md-button" onclick="window.open('https://www.pixiv.net/users/58891972')">Pxiv</button> -->
+    <button class="md-button" onclick="window.open('https://www.artstation.com/lizhenghe_chen')">ArtStation</button>
+</div>
+
+<style>
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* Center the buttons */
+        gap: 10px;
+        /* Space between buttons */
+    }
+</style>
+
+{% endblock %}
