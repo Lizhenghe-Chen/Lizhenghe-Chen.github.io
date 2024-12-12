@@ -1,12 +1,12 @@
-site_name: Bunny Chen's Docs
+site_name: Bunny Chen
 site_author: Bunny Chen
 site_description: Bunny Chen's personal Blog and Docs
 
 # Copyright
 copyright: Copyright &copy; 2019 - 2024 Lizhenghe-Chen | v1.0.4
-site_url: https://bunnychen.top/BunnyChenDoc/
-repo_url: https://bunnychen.top/BunnyChenDoc/
-repo_name: BunnyChenDoc
+site_url: https://bunnychen.top/
+repo_url: https://bunnychen.top/
+repo_name: BunnyChen
 
 theme:
   logo: assets/images/Avatar.png
