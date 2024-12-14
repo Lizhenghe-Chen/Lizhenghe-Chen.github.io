@@ -17,7 +17,7 @@ theme:
     repo: material/home
   custom_dir: overrides
   features:
-    - announce.dismiss
+    # - announce.dismiss
     # - content.action.edit
     - content.action.view
     - content.code.annotate
@@ -156,12 +156,12 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - index.md
   - about.md
-  - blog: blog/index.md
+  - blog/index.md
   # use the file name as the title
-
   - Docs:
+      - docs/index.md
       - UnityDocs:
           - docs/UnityDocs/index.md
           - docs/UnityDocs/BestUnityPluginCollections.md
