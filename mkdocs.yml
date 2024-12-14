@@ -19,7 +19,7 @@ theme:
   features:
     - announce.dismiss
     # - content.action.edit
-    # - content.action.view
+    - content.action.view
     - content.code.annotate
     - content.code.copy
     - content.code.select
@@ -39,13 +39,13 @@ theme:
     - navigation.tabs
     - navigation.path
     # - navigation.sections #
-    # - navigation.expand
+    - navigation.expand
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
-    # - toc.follow
+    - toc.follow
     # - toc.integrate
 
   palette:
@@ -162,6 +162,9 @@ nav:
   # use the file name as the title
 
   - Docs:
+      - UnityDocs:
+          - docs/UnityDocs/index.md
+          - docs/UnityDocs/BestUnityPluginCollections.md
       - GPTDocs:
           - docs/GPTRelated/index.md
           - docs/GPTRelated/Agent.md

@@ -1,7 +1,11 @@
 <!-- https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks -->
 {% extends "base.html" %}
-{% block content %}
 
+<!-- {% block announce %}
+{{ config.site_description }}
+{% endblock %} -->
+
+{% block content %}
 {% endblock %}
 
 
@@ -17,6 +21,10 @@
         align-items: center;
         height: 100vh;
         /* Full viewport height */
+    }
+
+    .data-md-component {
+        display: none;
     }
 
     /* Override mdx-hero__content to center the layout */
