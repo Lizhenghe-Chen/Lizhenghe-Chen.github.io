@@ -84,6 +84,8 @@
 
   }
 }
-.md-post.md-post--excerpt {
-  margin: 0; /* 设置外边距为 0 */
+/* Post excerpt */
+.md-post--excerpt {
+  margin-bottom: 0px; /* 使用 px2rem 转换后的值 */
+
 }
