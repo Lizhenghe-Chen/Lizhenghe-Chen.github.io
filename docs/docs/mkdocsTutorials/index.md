@@ -1,6 +1,7 @@
 ---
 template: overview.html
 title: MkDocsTutorials
+icon: simple/materialformkdocs
 ---
 !!! Abstract
 

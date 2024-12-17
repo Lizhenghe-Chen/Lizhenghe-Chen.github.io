@@ -1,9 +1,11 @@
 ---
 # template: about.html
 title: About Me
+icon: simple/aboutdotme
 hide:
   - navigation
   - toc
+
 ---
 Hi there 👋, I am
 

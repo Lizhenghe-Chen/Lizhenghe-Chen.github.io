@@ -1,6 +1,7 @@
 ---
 template: overview.html
 title: Docs
+icon: material/file-document-multiple
 ---
 # 简介
 

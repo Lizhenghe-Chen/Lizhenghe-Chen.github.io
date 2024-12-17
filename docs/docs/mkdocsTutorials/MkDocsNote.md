@@ -27,6 +27,22 @@
 
 ![1733589240626](image/MkDocsNote/1733589240626.png)
 
+### GitHub Page 部署 - Actions
+
+[Publishing your site - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)
+
+需要在**run**:**pip** 中增加命令行以满足自己的依赖需求
+
+#### 关于 GitHub Pages 每次推送到 gh-pages 时都会重置自定义域进行部署
+
+1. **创建 CNAME 文件** :在项目根目录下，找到或创建一个名为 `CNAME` 的文件（没有扩展名）。
+2. **编辑 CNAME 文件** :打开 `CNAME` 文件，并在其中输入你希望绑定的自定义域名，例如 `www.yourdomain.com`。
+3. **移动 CNAME 文件** :将 `CNAME` 文件移动到你的静态文件夹中，通常是 `docs` 或 `static` 文件夹，具体取决于你的项目结构。
+
+   ![1734010854774](image/MkDocsNote/1734010854774.png)
+
+![1734010486931](image/MkDocsNote/1734010486931.png)
+
 ## 重写覆盖页面：
 
 [Customization - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/customization/#overriding-blocks)
@@ -92,19 +108,3 @@ mkdocs.yml中加入：
 | **example** | `!!! example`  | 提供具体的示例说明                                 |
 |  **quote**  | `!!! quote`    | 引用块，通常用于显示引用或文摘                     |
 |       expand       | `??? expand`   | 提供展开功能                                       |
-
-## GitHub Page 部署 - Actions
-
-[Publishing your site - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)
-
-需要在**run**:**pip** 中增加命令行以满足自己的依赖需求
-
-### 关于 GitHub Pages 每次推送到 gh-pages 时都会重置自定义域进行部署
-
-1. **创建 CNAME 文件** :在项目根目录下，找到或创建一个名为 `CNAME` 的文件（没有扩展名）。
-2. **编辑 CNAME 文件** :打开 `CNAME` 文件，并在其中输入你希望绑定的自定义域名，例如 `www.yourdomain.com`。
-3. **移动 CNAME 文件** :将 `CNAME` 文件移动到你的静态文件夹中，通常是 `docs` 或 `static` 文件夹，具体取决于你的项目结构。
-
-   ![1734010854774](image/MkDocsNote/1734010854774.png)
-
-![1734010486931](image/MkDocsNote/1734010486931.png)

@@ -3,7 +3,7 @@ site_author: Bunny Chen
 site_description: Bunny Chen's personal Blog and Docs
 
 # Copyright
-copyright: Copyright &copy; 2019 - 2024 Lizhenghe-Chen | v1.1.0
+copyright: Copyright &copy; 2019 - 2024 Lizhenghe-Chen | v1.1.1
 site_url: https://bunnychen.top/
 repo_url: https://bunnychen.top/
 repo_name: BunnyChen
@@ -34,8 +34,7 @@ theme:
     # - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
-
-    - navigation.prune
+    
     - navigation.tabs
     - navigation.path
     # - navigation.sections #
@@ -171,6 +170,6 @@ nav:
           - docs/GPTRelated/UnityGPTChat.md
           - docs/GPTRelated/Sherpa Onnx ASR STT实战.md
           - docs/GPTRelated/Sherpa-onnx STT Windows.md
-      - MkDocsTutorials:
+      - MkDocs Material:
           - docs/mkdocsTutorials/index.md
           - docs/mkdocsTutorials/MkDocsNote.md
