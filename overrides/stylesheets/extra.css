@@ -84,3 +84,6 @@
 
   }
 }
+.md-post.md-post--excerpt {
+  margin: 0; /* 设置外边距为 0 */
+}

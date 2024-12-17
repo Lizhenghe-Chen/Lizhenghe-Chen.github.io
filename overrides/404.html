@@ -2,17 +2,19 @@
 
 {% block content %}
 <div class="md-content" style="text-align: center; padding: 50px;">
-    <h1>404 - 页面未找到</h1>
-    <p>抱歉，您请求的页面不存在。</p>
+    <h1>(っ °Д °;)っ<br>404 - Not Found</h1>
+    <p>抱歉，您请求的页面不存在</p>
 
     <!-- 添加导航链接 -->
     <h3>
-        <ul style="list-style: none; padding: 0;">
-            <li>⬆尝试搜索框搜索⬆</li>
-            <li><a href="{{ '' | url }}"> 返回首页</a></li>
-            <li><a href="{{ 'blog/' | url }}">浏览我的博客</a></li>
-            <li><a href="{{ 'about/' | url }}">了解更多关于我</a></li>
-        </ul>
+        ⬆尝试搜索框搜索⬆
+        <hr>
+        <a href="{{ '' | url }}"> 返回首页</a>
+        <br>
+        <a href="{{ 'blog/' | url }}">浏览我的博客</a>
+        <br>
+        <a href="{{ 'about/' | url }}">了解更多关于我</a>
+        <br>
     </h3>
 </div>
 {% endblock %}

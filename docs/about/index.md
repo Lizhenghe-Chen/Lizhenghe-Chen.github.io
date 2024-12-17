@@ -1,11 +1,9 @@
 ---
-# template: about.html
-title: About Me
-icon: simple/aboutdotme
+title: About
+icon: material/account-eye
 hide:
   - navigation
   - toc
-
 ---
 Hi there 👋, I am
 
@@ -15,7 +13,7 @@ Hi there 👋, I am
 |  _ \| | | | '_ \| '_ \| | | | | |   | '_ \ / _ \ '_ \ 
 | |_) | |_| | | | | | | | |_| | | |___| | | |  __/ | | |
 |____/ \__,_|_| |_|_| |_|\__, |  \____|_| |_|\___|_| |_|
-                         |___/      
+                         |___/  
 ```
 
 4 years studied at [**The Xi&#39;an JIAOTONG-LIVERPOOL UNIVERSITY**](https://www.xjtlu.edu.cn) & [**The UNIVERSITY OF LIVERPOOL**](https://www.liverpool.ac.uk) for Computer Science

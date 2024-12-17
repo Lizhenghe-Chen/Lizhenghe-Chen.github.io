@@ -5,8 +5,8 @@ site_description: Bunny Chen's personal Blog and Docs
 # Copyright
 copyright: Copyright &copy; 2019 - 2024 Lizhenghe-Chen | v1.1.1
 site_url: https://bunnychen.top/
-repo_url: https://bunnychen.top/
-repo_name: BunnyChen
+# repo_url: https://bunnychen.top/
+# repo_name: BunnyChen
 
 theme:
   logo: assets/images/Avatar.png
@@ -34,11 +34,11 @@ theme:
     # - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
-    
+
     - navigation.tabs
     - navigation.path
     # - navigation.sections #
-    - navigation.expand
+    # - navigation.expand
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -111,7 +111,7 @@ extra:
     - icon: material/file-document-edit
       link: https://blog.csdn.net/weixin_46146935
       name: CSDN
-      
+
 # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/
 markdown_extensions:
   - abbr
@@ -156,7 +156,8 @@ markdown_extensions:
 # Page tree
 nav:
   - index.md
-  - about.md
+  - About:
+      - about/index.md
   - blog/index.md
   # use the file name as the title
   - Docs:
