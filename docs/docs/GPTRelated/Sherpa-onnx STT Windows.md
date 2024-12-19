@@ -1,8 +1,10 @@
-# Sherpa-onnx Windows 运行
+# Sherpa-onnx Windows 运行 指令总结
+
+## [Paraformer models Windows builtin](https://k2-fsa.github.io/sherpa/onnx/pretrained_models/offline-paraformer/paraformer-models.html#csukuangfj-sherpa-onnx-paraformer-zh-small-2024-03-09-chinese-english)
 
 Windows Install :[93 新一代 Kaldi 部署框架 sherpa-onnx 之 Windows 安装 (适合0基础，手把手教)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Um421V75A?spm_id_from=333.788.videopod.sections&vd_source=964bbd88f350a12d2453698dd08ec8ca)
 
-## Below The Model used is : . \sherpa-onnx\sherpa-onnx-paraformer-zh-small-2024-03-09
+> Below The Model used is : . \sherpa-onnx\sherpa-onnx-paraformer-zh-small-2024-03-09
 
 ### use the test wav files to test the model:
 
@@ -27,7 +29,9 @@ Windows Install :[93 新一代 Kaldi 部署框架 sherpa-onnx 之 Windows 安装
 --paraformer=./sherpa-onnx-paraformer-zh-small-2024-03-09/model.int8.onnx
 ```
 
-## Below The Model used is : ./sherpa-onnx-streaming-paraformer-bilingual-zh-en
+## [Paraformer models — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/pretrained_models/online-paraformer/paraformer-models.html#csukuangfj-sherpa-onnx-streaming-paraformer-bilingual-zh-en-chinese-english)
+
+> Below The Model used is : ./sherpa-onnx-streaming-paraformer-bilingual-zh-en
 
 ### Use the Micriphone to test the Realtime stream:
 
@@ -38,7 +42,9 @@ Windows Install :[93 新一代 Kaldi 部署框架 sherpa-onnx 之 Windows 安装
 --paraformer-decoder=./sherpa-onnx-streaming-paraformer-bilingual-zh-en/decoder.int8.onnx
 ```
 
-# Below The Model used is : .\sherpa-onnx\sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20
+## [Streaming WebSocket server and client — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/websocket/online-websocket.html)
+
+> Below The Model used is : .\sherpa-onnx\sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20
 
 ### Start the Server:
 
@@ -57,21 +63,25 @@ Windows Install :[93 新一代 Kaldi 部署框架 sherpa-onnx 之 Windows 安装
 
 ```
 
-### Start the Python Microphone Client: python-api-examples\online-websocket-client-microphone.py
+### Start the Python Test Client: python-api-examples\online-websocket-client-decode-file.py
 
 ```
-python3 ./python-api-examples/online-websocket-client-decode-file.py `
+python ./python-api-examples/online-websocket-client-decode-file.py `
   --server-addr localhost `
   --server-port 6006 `
   --seconds-per-message 0.1 `
-  ./sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20/test_wavs/4.wav
-
+  ./sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20/test_wavs/0.wav
 ```
 
+### Start the Python Microphone Client: python-api-examples\online-websocket-client-microphone.py
+
 ```
-# Q&A
+python ./python-api-examples/online-websocket-client-microphone.py `
+  --server-addr localhost `
+  --server-port 6006
+```
 
-### In Windows, if the output is wired, you can try to use the following command to test the model:
+## Q&A
 
+In Windows, if the output is wired for Chinese, you can try to use the following command to test the model:
 [Frequently Asked Question (FAQs) — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/tts/faq.html) & command: CHCP65001
-```

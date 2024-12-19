@@ -16,13 +16,24 @@ Hi there 👋, I am
                          |___/  
 ```
 
-4 years studied at [**The Xi&#39;an JIAOTONG-LIVERPOOL UNIVERSITY**](https://www.xjtlu.edu.cn) & [**The UNIVERSITY OF LIVERPOOL**](https://www.liverpool.ac.uk) for Computer Science
-1 year in [**The UNIVERSITY OF Bristol**](https://www.bristol.ac.uk) for Aerial Robotics MSc.
+
+## Personal Profile
+
+A 25-year-old with a background in Computer Science and Robotics, I have experience in various areas including Virtual Reality, Game Development, Robotics, as well as a foundational understanding of machine learning, data analysis, and image recognition. I am also familiar with robotics programming and PID control. I enjoy traveling and engaging with the arts, and I pride myself on my honesty, optimism, and adaptability.
+
+## Professional Experience
+
+I have had the opportunity to work in different capacities, currently as a Unity Engineer at the Metaverse Joint Innovation Laboratory of the Hong Kong University of Science and Technology (Guangzhou). In this role, I contributed to the development of a metaverse education platform and gained experience in project management. I am comfortable with several programming languages including C# and Java, and have basic experience with Unity for game development.
+
+## Education
+
+4 years studied at [**The Xi&#39;an JIAOTONG-LIVERPOOL UNIVERSITY**](https://www.xjtlu.edu.cn) & [**The UNIVERSITY OF LIVERPOOL**](https://www.liverpool.ac.uk) for Computer Science Bachelor’s degree
+1 year in [**The UNIVERSITY OF Bristol**](https://www.bristol.ac.uk) for Aerial Robotics Master’s degree.
 Now working at [**The Hong Kong University of Science and Technology (Guangzhou)**](https://www.hkust-gz.edu.cn/)
 
-<!-- [**More About My Resume**]****(assets/陈李政和 简历.pdf){: .btn} -->
+## Interests
 
-<!-- [**LinkedIn**](https://www.linkedin.com/in/lizhenghe-chen){: .btn}         -->
+In my spare time, I enjoy playing a variety of musical instruments and exploring creative outlets such as film, photography, and painting. I also have a passion for outdoor activities and have a keen interest in the fields of medicine, biology, and economics.
 
 ---
 
@@ -32,15 +43,15 @@ Now working at [**The Hong Kong University of Science and Technology (Guangzhou)
  */
 public class LizhengheChen {
     public static void main(String[] args) {
-        MyCoffe myCoffe = new MyCoffe();
+        Water myWater = new Water(); // I don't drink coffee~
         WorkTask workTask = new WorkTask();
 
         while (!workTask.isDone()) {
-            if (myCoffe.isEmpty()) {
-                myCoffe.Make();
-                myCoffe.ReFill();
+            if (myWater.isEmpty()) {
+                myWater.ReFill();
+                workTask.Do();
             } else
-                myCoffe.Drink();
+                myWater.Drink();
         }
     }
 }
