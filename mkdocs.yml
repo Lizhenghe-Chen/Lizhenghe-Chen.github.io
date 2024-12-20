@@ -3,12 +3,13 @@ site_author: Bunny Chen
 site_description: Bunny Chen's personal Blog and Docs
 
 # Copyright
-copyright: Copyright &copy; 2019 - 2024 Lizhenghe-Chen | v1.1.1
+copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2024 Lizhenghe-Chen | v1.1.2</a>
 site_url: https://bunnychen.top/
 # repo_url: https://bunnychen.top/
 # repo_name: BunnyChen
 
 theme:
+  language: zh
   logo: assets/images/Avatar.png
   favicon: assets/images/Avatar.png
   name: material
@@ -70,6 +71,8 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/no-copy.js
 plugins:
   - blog:
       blog_dir: blog
@@ -159,6 +162,7 @@ nav:
   - index.md
   - About:
       - about/index.md
+      - about/LICENSE.md
   - blog/index.md
   # use the file name as the title
   - Docs:
@@ -170,8 +174,10 @@ nav:
           - docs/GPTRelated/index.md
           - docs/GPTRelated/Agent.md
           - docs/GPTRelated/UnityGPTChat.md
-          - docs/GPTRelated/Sherpa Onnx ASR STT实战.md
-          - docs/GPTRelated/Sherpa-onnx STT Windows.md
+          - Sherpa 语音模块:
+              - docs/GPTRelated/Sherpa Onnx ASR STT实战.md
+              - docs/GPTRelated/Sherpa-onnx STT Windows.md
       - MkDocs Material:
           - docs/mkdocsTutorials/index.md
+          - docs/mkdocsTutorials/start.md
           - docs/mkdocsTutorials/MkDocsNote.md

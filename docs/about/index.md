@@ -31,10 +31,6 @@ I have had the opportunity to work in different capacities, currently as a Unity
 1 year in [**The UNIVERSITY OF Bristol**](https://www.bristol.ac.uk) for Aerial Robotics Master’s degree.
 Now working at [**The Hong Kong University of Science and Technology (Guangzhou)**](https://www.hkust-gz.edu.cn/)
 
-## Interests
-
-In my spare time, I enjoy playing a variety of musical instruments and exploring creative outlets such as film, photography, and painting. I also have a passion for outdoor activities and have a keen interest in the fields of medicine, biology, and economics.
-
 ---
 
 ```java
@@ -79,8 +75,9 @@ public class LizhengheChen {
 > 🎉This is a static site that lives on GitHub...
 > As long as GitHub and I are not finished,
 > then let this site lie in the ocean of the Internet
-> JUST FOR FUN
-> Made with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+> JUST FOR FUN  
+> Made with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)  
+> [网站内容版权申明](LICENSE.md)
 
 [My GitHub](https://github.com/Lizhenghe-Chen){ .md-button }
 [CSDN](https://blog.csdn.net/weixin_46146935?type=blog){ .md-button }

@@ -89,3 +89,7 @@
   margin-bottom: 0px; /* 使用 px2rem 转换后的值 */
 
 }
+/* 禁止选中文本 */
+body {
+  user-select: none;
+}
