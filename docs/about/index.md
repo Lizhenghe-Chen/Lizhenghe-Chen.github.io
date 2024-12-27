@@ -16,14 +16,6 @@ Hi there 👋, I am
                          |___/  
 ```
 
-- Nulla et**rhoncus**turpis. Mauris ultricies elementum leo. Duis efficitur
-  accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh
-  lacinia sed. Aenean in finibus diam.
-
-  * Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
-  * Nam vulputate tincidunt fringilla.
-  * Nullam dignissim ultrices urna non auctor.
-
 ## Personal Profile
 
 A 25-year-old with a background in Computer Science and Robotics, I have experience in various areas including Virtual Reality, Game Development, Robotics, as well as a foundational understanding of machine learning, data analysis, and image recognition. I am also familiar with robotics programming and PID control. I enjoy traveling and engaging with the arts, and I pride myself on my honesty, optimism, and adaptability.
