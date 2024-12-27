@@ -3,7 +3,7 @@ site_author: Bunny Chen
 site_description: Bunny Chen's personal Blog and Docs
 
 # Copyright
-copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2024 Lizhenghe-Chen | v1.1.2</a>
+copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe-Chen | v1.1.2.1</a>
 site_url: https://bunnychen.top/
 # repo_url: https://bunnychen.top/
 # repo_name: BunnyChen
@@ -84,7 +84,7 @@ plugins:
       pagination_keep_content: true # 设置blog索引页面的分页内容
       draft_if_future_date: true # 设置如果blog的日期是未来的话，就会被当成草稿不会被发布
   - search:
-      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      # separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - glightbox:
       touchNavigation: true
       loop: false
@@ -125,7 +125,7 @@ markdown_extensions:
   - md_in_html
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/?h=permanent#table-of-contents
   - toc:
-      toc_depth: 3
+      toc_depth: 4
       permalink: ヾ(•ω•`)o
       permalink_title: Title link
       slugify: !!python/object/apply:pymdownx.slugs.slugify
@@ -156,13 +156,20 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - md_in_html
 # Page tree
 nav:
   - index.md
   - About:
       - about/index.md
       - about/LICENSE.md
+      # - about/MetaverseJointInnovationLaboratory/index.md
   - blog/index.md
   # use the file name as the title
   - Docs:
@@ -170,11 +177,11 @@ nav:
       - UnityDocs:
           - docs/UnityDocs/index.md
           - docs/UnityDocs/BestUnityPluginCollections.md
-      - GPTDocs:
+      - MetaHuman:
           - docs/GPTRelated/index.md
           - docs/GPTRelated/Agent.md
-          - docs/GPTRelated/UnityGPTChat.md
-          - Sherpa 语音模块:
+          - docs/GPTRelated/LocalLLM.md
+          - Sherpa ASR STT模块:
               - docs/GPTRelated/Sherpa Onnx ASR STT实战.md
               - docs/GPTRelated/Sherpa-onnx STT Windows.md
       - MkDocs Material:

@@ -16,6 +16,13 @@ Hi there 👋, I am
                          |___/  
 ```
 
+- Nulla et**rhoncus**turpis. Mauris ultricies elementum leo. Duis efficitur
+  accumsan nibh eu mattis. Vivamus tempus velit eros, porttitor placerat nibh
+  lacinia sed. Aenean in finibus diam.
+
+  * Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
+  * Nam vulputate tincidunt fringilla.
+  * Nullam dignissim ultrices urna non auctor.
 
 ## Personal Profile
 
@@ -29,7 +36,7 @@ I have had the opportunity to work in different capacities, currently as a Unity
 
 4 years studied at [**The Xi&#39;an JIAOTONG-LIVERPOOL UNIVERSITY**](https://www.xjtlu.edu.cn) & [**The UNIVERSITY OF LIVERPOOL**](https://www.liverpool.ac.uk) for Computer Science Bachelor’s degree
 1 year in [**The UNIVERSITY OF Bristol**](https://www.bristol.ac.uk) for Aerial Robotics Master’s degree.
-Now working at [**The Hong Kong University of Science and Technology (Guangzhou)**](https://www.hkust-gz.edu.cn/)
+Now working at [**The Hong Kong University of Science and Technology (Guangzhou)**](https://www.hkust-gz.edu.cn/) for [**Metaverse Joint Innovation Laboratory**](./MetaverseJointInnovationLaboratory/index.md){ .md-button }
 
 ---
 
@@ -75,8 +82,8 @@ public class LizhengheChen {
 > 🎉This is a static site that lives on GitHub...
 > As long as GitHub and I are not finished,
 > then let this site lie in the ocean of the Internet
-> JUST FOR FUN  
-> Made with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)  
+> JUST FOR FUN
+> w
 > [网站内容版权申明](LICENSE.md)
 
 [My GitHub](https://github.com/Lizhenghe-Chen){ .md-button }

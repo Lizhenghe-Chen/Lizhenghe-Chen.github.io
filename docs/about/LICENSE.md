@@ -9,7 +9,7 @@ hide:
 
 **版权所有 © [2019-2025] [Lizhenghe.Chen]**
 
-本网站（包括但不限于文本、图像、音频、视频、图表）的大部分内容均为[Lizhenghe.Chen]原创，享有完整的著作权。未经[Lizhenghe.Chen]书面授权，任何个人或实体不得复制、下载或以其他任何方式使用、盗用本网站的内容。允许带有标明出处的引用和转载。任何未经授权的使用行为都可能构成对著作权的侵犯，并可能导致相应的法律责任。
+本网站（包括但不限于 **所有页面** 的文本、图像、音频、视频、图表）的分内容均为[Lizhenghe.Chen]原创，除非标注有引用源，否则享有完整的著作权。任何个人或实体不得复制、下载或以其他任何方式使用、盗用本网站的内容。允许带有标明出处的引用和转载。任何未经授权的使用行为都可能构成对著作权的侵犯，并可能导致相应的法律责任。
 
 **保留权利：** [Lizhenghe.Chen] 保留所有未明确授权的权利。
 
@@ -27,7 +27,7 @@ hide:
 
 **All rights reserved © [2019-2025] [Lizhenghe.Chen]**
 
-Most of the content on this website (including but not limited to text, images, audio, video, diagrams) is originally created by [Lizhenghe.Chen] and is protected by full copyright. Without the written authorization from [Lizhenghe.Chen], no individual or entity may copy, download, or use, appropriate, or otherwise exploit the content of this website in any way. Quotations and reproductions with proper attribution are permitted. Any unauthorized use may constitute an infringement of copyright and could result in legal liability.
+Most of the content on this website (including but not limited to **All Pages'** text, images, audio, video, diagrams) is originally created by [Lizhenghe.Chen] and is protected by full copyright(Unless a source is cited). Without the written authorization from [Lizhenghe.Chen], no individual or entity may copy, download, or use, appropriate, or otherwise exploit the content of this website in any way. Quotations and reproductions with proper attribution are permitted. Any unauthorized use may constitute an infringement of copyright and could result in legal liability.
 
 **Reserved Rights:** [Lizhenghe.Chen] retains all rights not expressly granted.
 
