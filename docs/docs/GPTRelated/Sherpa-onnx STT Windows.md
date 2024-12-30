@@ -1,6 +1,8 @@
 # Sherpa-onnx Windows 运行 指令总结
 
-## [Paraformer models Windows builtin](https://k2-fsa.github.io/sherpa/onnx/pretrained_models/offline-paraformer/paraformer-models.html#csukuangfj-sherpa-onnx-paraformer-zh-small-2024-03-09-chinese-english)
+## Paraformer models Windows builtin
+
+[Paraformer models — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/pretrained_models/offline-paraformer/paraformer-models.html#csukuangfj-sherpa-onnx-paraformer-zh-small-2024-03-09-chinese-english)
 
 Windows Install :[93 新一代 Kaldi 部署框架 sherpa-onnx 之 Windows 安装 (适合0基础，手把手教)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Um421V75A?spm_id_from=333.788.videopod.sections&vd_source=964bbd88f350a12d2453698dd08ec8ca)
 
@@ -29,7 +31,9 @@ Windows Install :[93 新一代 Kaldi 部署框架 sherpa-onnx 之 Windows 安装
 --paraformer=./sherpa-onnx-paraformer-zh-small-2024-03-09/model.int8.onnx
 ```
 
-## [Paraformer models — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/pretrained_models/online-paraformer/paraformer-models.html#csukuangfj-sherpa-onnx-streaming-paraformer-bilingual-zh-en-chinese-english)
+## Paraformer models — sherpa 1.3 documentation
+
+[Paraformer models — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/pretrained_models/online-paraformer/paraformer-models.html#csukuangfj-sherpa-onnx-streaming-paraformer-bilingual-zh-en-chinese-english)
 
 > Below The Model used is : ./sherpa-onnx-streaming-paraformer-bilingual-zh-en
 
@@ -42,7 +46,9 @@ Windows Install :[93 新一代 Kaldi 部署框架 sherpa-onnx 之 Windows 安装
 --paraformer-decoder=./sherpa-onnx-streaming-paraformer-bilingual-zh-en/decoder.int8.onnx
 ```
 
-## [Streaming WebSocket server and client — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/websocket/online-websocket.html)
+## Streaming WebSocket server and client — sherpa 1.3 documentation
+
+[Streaming WebSocket server and client — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/websocket/online-websocket.html)
 
 > Below The Model used is : .\sherpa-onnx\sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20
 

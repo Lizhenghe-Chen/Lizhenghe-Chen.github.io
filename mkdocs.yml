@@ -1,9 +1,9 @@
 site_name: Bunny Chen
-site_author: Bunny Chen
-site_description: Bunny Chen's personal Blog and Docs
+site_author: Lizhenghe Chen
+site_description: Lizhenghe Chen's personal Blog and Docs
 
 # Copyright
-copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe-Chen | v1.1.2.1</a>
+copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe Chen | v1.1.2.1</a>
 site_url: https://bunnychen.top/
 # repo_url: https://bunnychen.top/
 # repo_name: BunnyChen
@@ -74,15 +74,7 @@ extra_css:
 extra_javascript:
   - javascripts/no-copy.js
 plugins:
-  - blog:
-      blog_dir: blog
-      blog_toc: true # 设置blog索引页面的目录
-      post_date_format: full # 设置blog索引页面的日期格式
-      archive_toc: true
-      categories_toc: true
-      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last" # 设置blog索引页面的分页格式
-      pagination_keep_content: true # 设置blog索引页面的分页内容
-      draft_if_future_date: true # 设置如果blog的日期是未来的话，就会被当成草稿不会被发布
+  - blog
   - search:
       # separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - glightbox:
@@ -97,9 +89,9 @@ plugins:
       auto_caption: false
       caption_position: bottom
   # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
-  - git-revision-date-localized:
-      enable_creation_date: false
-      type: datetime
+  # - git-revision-date-localized:
+  #     enable_creation_date: false
+  #     type: datetime
 
 extra:
   #remove the footer copyright
@@ -170,7 +162,8 @@ nav:
       - about/index.md
       - about/LICENSE.md
       # - about/MetaverseJointInnovationLaboratory/index.md
-  - blog/index.md
+  - Blog:
+      - blog/index.md
   # use the file name as the title
   - Docs:
       - docs/index.md

@@ -1,7 +1,7 @@
 ---
-hide:
-  - navigation
-#   - toc
+# hide:
+#   - navigation
+# #   - toc
 icon: fontawesome/solid/blog
 ---
 # Blog

@@ -52,44 +52,44 @@ ChatDB框架的提出，为LLMs提供了一种新的增强方式，即通过将�
 
 # 引用
 
-[^1]: “Is It an agent, or just a program?: A taxonomy for autonomous agents,” Available: [https://link.springer.com/chapter/10.1007/bfb0013570]:(https://link.springer.com/chapter/10.1007/bfb0013570).
+[^1]: “Is It an agent, or just a program?: A taxonomy for autonomous agents,” Available: https://link.springer.com/chapter/10.1007/bfb0013570.
     
-[^2]:   “The Rise and Potential of Large Language Model Based Agents: A Survey,” Available: [https://arxiv.org/abs/2309.07864]:(https://arxiv.org/abs/2309.07864).
+[^2]:   “The Rise and Potential of Large Language Model Based Agents: A Survey,” Available: https://arxiv.org/abs/2309.07864.
     
-[^3]:   “Language Models are Few-Shot Learners,” Available: [https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html]:(https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html).
+[^3]:   “Language Models are Few-Shot Learners,” Available: https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html.
     
-[^4]:   “Open and efficient foundation language,” Available: [https://arxiv.org/abs/2302.13971]:(https://arxiv.org/abs/2302.13971).
+[^4]:   “Open and efficient foundation language,” Available: https://arxiv.org/abs/2302.13971.
     
-[^5]:   “MEGA: Multilingual Evaluation of Generative AI,” Available: [https://arxiv.org/abs/2303.12528]:(https://arxiv.org/abs/2303.12528).
+[^5]:   “MEGA: Multilingual Evaluation of Generative AI,” Available: https://arxiv.org/abs/2303.12528.
     
-[^6]:   W. LLMmeetsdomainexperts. Available: [https://arxiv.org/abs/2304.04370]:(https://arxiv.org/abs/2304.04370).
+[^6]:   W. LLMmeetsdomainexperts. Available: https://arxiv.org/abs/2304.04370.
     
-[^7]:   “Understanding Natural Language Commands for Robotic Navigation and Mobile Manipulation,” Available: [https://www.researchgate.net/publication/363512801_Understanding_Natural_Language_Commands_for_Robotic_Navigation_and_Mobile_Manipulation]:(https://www.researchgate.net/publication/363512801_Understanding_Natural_Language_Commands_for_Robotic_Navigation_and_Mobile_Manipulation).
+[^7]:   “Understanding Natural Language Commands for Robotic Navigation and Mobile Manipulation,” Available: https://www.researchgate.net/publication/363512801_Understanding_Natural_Language_Commands_for_Robotic_Navigation_and_Mobile_Manipulation.
     
-[^8]:   “A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity,” Available: [https://arxiv.org/abs/2302.04023]:(https://arxiv.org/abs/2302.04023).
+[^8]:   “A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity,” Available: https://arxiv.org/abs/2302.04023.
     
-[^9]:   “How Much Knowledge Can You Pack Into the Parameters of a Language Model,” Available: [https://arxiv.org/abs/2002.08910]:(https://arxiv.org/abs/2002.08910).
+[^9]:   “How Much Knowledge Can You Pack Into the Parameters of a Language Model,” Available: https://arxiv.org/abs/2002.08910.
     
-[^10]:  “Scaling Laws for Neural Language Models,” Available: [https://arxiv.org/abs/2001.08361]:(https://arxiv.org/abs/2001.08361).
+[^10]:  “Scaling Laws for Neural Language Models,” Available: https://arxiv.org/abs/2001.08361.
     
-[^11]:  “How Much Knowledge Can You Pack Into the Parameters of a Language Model,” Available: [https://arxiv.org/abs/2002.08910]:(https://arxiv.org/abs/2002.08910).
+[^11]:  “How Much Knowledge Can You Pack Into the Parameters of a Language Model,” Available: https://arxiv.org/abs/2002.08910.
     
-[^12]:  “A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity,” Available: [https://arxiv.org/abs/2302.04023]:(https://arxiv.org/abs/2302.04023).
+[^12]:  “A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity,” Available: https://arxiv.org/abs/2302.04023.
     
-[^13]:  “Language Models of Code are Few-Shot Commonsense Learners,” Available: [https://arxiv.org/abs/2210.07128]:(https://arxiv.org/abs/2210.07128).
+[^13]:  “Language Models of Code are Few-Shot Commonsense Learners,” Available: https://arxiv.org/abs/2210.07128.
     
-[^14]:  “Commonsense knowledge in machine intelligence,” Available: [https://dl.acm.org/doi/10.1145/3186549.3186562]:(https://dl.acm.org/doi/10.1145/3186549.3186562).
+[^14]:  “Commonsense knowledge in machine intelligence,” Available: https://dl.acm.org/doi/10.1145/3186549.3186562.
     
-[^15]:  “ Don’t stop pretraining: Adapt language,” Available: [https://arxiv.org/abs/2004.10964]:(https://arxiv.org/abs/2004.10964).
+[^15]:  “ Don’t stop pretraining: Adapt language,” Available: https://arxiv.org/abs/2004.10964.
     
-[^16]:  “Measuring Catastrophic Forgetting in Neural Networks,” Available: [https://arxiv.org/abs/1708.02072]:(https://arxiv.org/abs/1708.02072).
+[^16]:  “Measuring Catastrophic Forgetting in Neural Networks,” Available: https://arxiv.org/abs/1708.02072.
     
-[^17]:  “A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions,” Available: [https://arxiv.org/abs/2311.05232]:(https://arxiv.org/abs/2311.05232).
+[^17]:  “A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions,” Available: https://arxiv.org/abs/2311.05232.
     
-[^18]:  “Large Language Models Can Be Easily Distracted by Irrelevant Context,” Available: [https://arxiv.org/abs/2302.00093]:(https://arxiv.org/abs/2302.00093).
+[^18]:  “Large Language Models Can Be Easily Distracted by Irrelevant Context,” Available: https://arxiv.org/abs/2302.00093.
     
-[^19]:  “Reconsolidation of human memory: brain mechanisms and clinical relevance,” Available: [https://pubmed.ncbi.nlm.nih.gov/24755493/]:(https://pubmed.ncbi.nlm.nih.gov/24755493/).
+[^19]:  “Reconsolidation of human memory: brain mechanisms and clinical relevance,” Available: https://pubmed.ncbi.nlm.nih.gov/24755493/.
     
-[^20]:  “Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading,” Available: [https://arxiv.org/abs/2310.05029]:(https://arxiv.org/abs/2310.05029).
+[^20]:  “Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading,” Available: https://arxiv.org/abs/2310.05029.
     
-[^21]:  “Empowering Private Tutoring by Chaining Large Language Models,” Available: [https://arxiv.org/abs/2309.08112](https://arxiv.org/abs/2309.08112).
+[^21]:  “Empowering Private Tutoring by Chaining Large Language Models,” Available: https://arxiv.org/abs/2309.08112.

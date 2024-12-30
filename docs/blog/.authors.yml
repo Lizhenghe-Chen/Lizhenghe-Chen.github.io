@@ -1,6 +1,6 @@
 authors:
   bunnychen:
     name: BunnyChen
-    description: Creator
-    avatar: https://avatars.githubusercontent.com/u/932156
-    url: https://github.com/squidfunk
+    description: Site Creator
+    avatar: assets/images/Avatar.png
+    url: /about/

@@ -1,7 +1,7 @@
 ---
-title: Welcome BunnyChen!
+title: Welcome to BunnyChen!
 date: 2022-05-12
-author: [bunnychen]
+authors: [bunnychen]
 ---
 啊哈终于有一个属于自己的半手工静态网站了！！
 
