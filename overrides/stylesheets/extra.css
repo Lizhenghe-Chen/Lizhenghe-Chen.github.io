@@ -83,7 +83,7 @@
   --md-header-bg-color: #ffffff99;
   /* 浅色模式下页眉背景颜色 */
 
-  --md-admonition-fg-color: var(--link-color);
+  /* --md-admonition-fg-color: var(--link-color); */
   /* 浅色模式下警告框文本颜色 */
 
   --md-typeset-color: #000000;

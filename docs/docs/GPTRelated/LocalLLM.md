@@ -67,29 +67,31 @@ curl https://api.openai.com/v1/chat/completions \
 * 如果你使用ChatGPT，那么就很简单了，直接用上面的接口格式就行，只需要API key 和模型名称即可：如在控制台中输入：`ollama run qwen2.5` 即可下载运行千问大模型
 * 如果使用Ollama部署本地大模型：
 
-  * 同样可以使用Open AI规范的形式，参考：[OpenAI compatibility · Ollama Blog][https://ollama.com/blog/openai-compatibility)
-  * 只要下载并部署好Ollama并安装好指定的模型即可
-  * > 常用的Ollama环境变量设置（[Global Configuration Variables for Ollama · Issue #2941 · ollama/ollama](https://github.com/ollama/ollama/issues/2941#issuecomment-2322778733)）：
-    >
-    > * `OLLAMA_ORIGINS`: 允许的来源，用于跨域请求，如果遇到（CORS）问题，可以设置变量为 `*`
-    > * `OLLAMA_MODELS`: 指定模型下载存储路径，默认是 `$HOME/.ollama/models`
-    > * `OLLAMA_HOST`: 服务器端口地址，默认是 `http://127.0.0.1:11434`
-    > * `OLLAMA_KEEP_ALIVE`: 模型激活后的保持时间，默认是5分钟，这会在加载大体量模型但常用的时候每一次请求都要重新加载模型，所以可以设置一个较长的时间如5h
-    >
+    * 同样可以使用Open AI规范的形式，参考：[OpenAI compatibility · Ollama Blog][https://ollama.com/blog/openai-compatibility)
+    * 只要下载并部署好Ollama并安装好指定的模型即可
+    * 常用的Ollama环境变量设置（[Global Configuration Variables for Ollama · Issue #2941 · ollama/ollama](https://github.com/ollama/ollama/ issues/2941#issuecomment-2322778733)）：
+
+      >
+      > * `OLLAMA_ORIGINS`: 允许的来源，用于跨域请求，如果遇到（CORS）问题，可以设置变量为 `*`
+      > * `OLLAMA_MODELS`: 指定模型下载存储路径，默认是 `$HOME/.ollama/models`
+      > * `OLLAMA_HOST`: 服务器端口地址，默认是 `http://127.0.0.1:11434`
+      > * `OLLAMA_KEEP_ALIVE`: 模型激活后的保持时间，默认是5分钟，这会在加载大体量模型但常用的时候每一次请求都要重新加载模型，所以可以设置一个较长的时间如5h
+      >
+
 * 如果使用AnythingLLM搭建本地知识库
 
-  * 确保Ollama已经安装
-  * 下载安装[Download AnythingLLM for Desktop][https://anythingllm.com/download)
-  * 然后简单的配置好，指定Ollama为内核即可
-  * 为了能够像OpenAI那样使用网络API接口，在 设置>工具>API密钥 里申请一个密钥，然后点击“阅读API文档”，点击“Authorize”将密钥复制进去就可以测试接口了：
-  * 在你创建完一个workspace后，就可以查阅模型名称：
-    * ![1733626820158](image/UnityGPTChat/1733626820158.png)
-  * 将查阅的模型名称输入到聊天API中测试：	![1733626844161](image/UnityGPTChat/1733626844161.png)
-  * 之后你只需要将上述特定的json数据请求格式发送到：
+    1.  确保Ollama已经安装
+    2.  下载安装[Download AnythingLLM for Desktop][https://anythingllm.com/download)
+    3.  然后简单的配置好，指定Ollama为内核即可
+    4.  为了能够像OpenAI那样使用网络API接口，在 设置>工具>API密钥 里申请一个密钥，然后点击“阅读API文档”，点击“Authorize”将密钥复制进去就可以测试接口了：
+    5.  在你创建完一个workspace后，就可以查阅模型名称：
+        ![1733626820158](image/UnityGPTChat/1733626820158.png)
+        将查阅的模型名称输入到聊天API中测试：	![1733626844161](image/UnityGPTChat/1733626844161.png)
+    6. 之后你只需要将上述特定的json数据请求格式发送到：
 
-  ```bash
-  http://localhost:3001/api/v1/openai/chat/completions
-  ```
+        ```bash
+        http://localhost:3001/api/v1/openai/chat/completions
+        ```
 
 ### 然后就是Unity C#代码的简单解析：
 

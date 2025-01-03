@@ -161,15 +161,15 @@ nav:
   - About:
       - about/index.md
       - about/LICENSE.md
-      # - about/MetaverseJointInnovationLaboratory/index.md
+      - about/MetaverseJointInnovationLaboratory/index.md
   - Blog:
       - blog/index.md
   # use the file name as the title
   - Docs:
       - docs/index.md
       - UnityDocs:
-          - docs/UnityDocs/index.md
-          - docs/UnityDocs/BestUnityPluginCollections.md
+          - docs/Unity/index.md
+          - docs/Unity/BestUnityPluginCollections.md
       - MetaHuman:
           - docs/GPTRelated/index.md
           - docs/GPTRelated/Agent.md
@@ -181,3 +181,9 @@ nav:
           - docs/mkdocsTutorials/index.md
           - docs/mkdocsTutorials/start.md
           - docs/mkdocsTutorials/MkDocsNote.md
+      - Linux Study:
+          - docs/Linux/index.md
+          - docs/Linux/WSL.md
+          - docs/Linux/installUbuntu.md
+          - docs/Linux/condaPython.md
+

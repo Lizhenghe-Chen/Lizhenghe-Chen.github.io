@@ -31,7 +31,7 @@ Windows Install :[93 新一代 Kaldi 部署框架 sherpa-onnx 之 Windows 安装
 --paraformer=./sherpa-onnx-paraformer-zh-small-2024-03-09/model.int8.onnx
 ```
 
-## Paraformer models — sherpa 1.3 documentation
+## Paraformer models
 
 [Paraformer models — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/pretrained_models/online-paraformer/paraformer-models.html#csukuangfj-sherpa-onnx-streaming-paraformer-bilingual-zh-en-chinese-english)
 
@@ -46,7 +46,7 @@ Windows Install :[93 新一代 Kaldi 部署框架 sherpa-onnx 之 Windows 安装
 --paraformer-decoder=./sherpa-onnx-streaming-paraformer-bilingual-zh-en/decoder.int8.onnx
 ```
 
-## Streaming WebSocket server and client — sherpa 1.3 documentation
+## Streaming WebSocket server and client
 
 [Streaming WebSocket server and client — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/websocket/online-websocket.html)
 
