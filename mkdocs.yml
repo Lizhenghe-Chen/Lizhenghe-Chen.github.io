@@ -3,7 +3,7 @@ site_author: Lizhenghe Chen
 site_description: Lizhenghe Chen's personal Blog and Docs
 
 # Copyright
-copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe Chen | v1.1.2.1</a>
+copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe Chen | v1.1.2.2</a>
 site_url: https://bunnychen.top/
 # repo_url: https://bunnychen.top/
 # repo_name: BunnyChen
@@ -167,7 +167,7 @@ nav:
   # use the file name as the title
   - Docs:
       - docs/index.md
-      - UnityDocs:
+      - Unity Docs:
           - docs/Unity/index.md
           - docs/Unity/BestUnityPluginCollections.md
       - MetaHuman:
@@ -177,13 +177,14 @@ nav:
           - Sherpa ASR STT模块:
               - docs/GPTRelated/Sherpa Onnx ASR STT实战.md
               - docs/GPTRelated/Sherpa-onnx STT Windows.md
-      - MkDocs Material:
+      - MkDocs:
           - docs/mkdocsTutorials/index.md
           - docs/mkdocsTutorials/start.md
           - docs/mkdocsTutorials/MkDocsNote.md
-      - Linux Study:
+      - Linux Notes:
           - docs/Linux/index.md
           - docs/Linux/WSL.md
           - docs/Linux/installUbuntu.md
+          - docs/Linux/UbuntuSoftware.md
           - docs/Linux/condaPython.md
 

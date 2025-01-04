@@ -32,6 +32,9 @@ Linux的主流发行版包括：
 !!!warning
     此外，不要错误安装为服务器（没有图形界面），除非你需要的是服务器版本：[Get Ubuntu Server | Download | Ubuntu](https://ubuntu.com/download/server#how-to-install-lts)
 
+!!!success
+    如果是个人办公使用的话，在设置Ubuntu阶段会提示是否使用拓展安装（Extended selection）这里推荐选择是，该扩展选择包含其他 Office 工具和实用程序，适用于离线情况。![1735903617437](image/installUbuntu/1735903617437.png)
+
 ## 设置Ubuntu中文智能输入法
 
 * 系统语言建议安装英文，因为很多教程和文档都是英文的，这样方便找到正确的选项
@@ -110,3 +113,7 @@ Linux的主流发行版包括：
 ##### 使用图形界面卸载：
 
 * 使用Synaptic包管理器，你可以安装它：`sudo apt-get install synaptic` 然后在该应用中通过筛选器或搜索你想卸载的软件包，通常在Status列中会出现“Installed”标签，第三方通常是“Installed(Manual\local\obsolete)”标签
+
+## Ubuntu 远程端口 Shell
+
+## 远程桌面
