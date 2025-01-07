@@ -1,4 +1,4 @@
-# 配置Conda和Pytorch
+# Ubuntu 配置Conda和Pytorch
 
 ## Miniconda和Anaconda
 
@@ -23,5 +23,9 @@ Anaconda和Miniconda的主要区别在于：
 [Installing Miniconda — Anaconda documentation](https://docs.anaconda.com/miniconda/install/)
 
 ## 配置Cuda和Pytorch
+
+!!! warning
+    注意Python版本不得高于3.12！，否则可能会导致无法找到对应的CUDA版本下载。
+    较老版本的Python版本支持可以在[Previous PyTorch Versions | PyTorch](https://pytorch.org/get-started/previous-versions/) 中找到  
 
 [Start Locally | PyTorch](https://pytorch.org/get-started/locally/)

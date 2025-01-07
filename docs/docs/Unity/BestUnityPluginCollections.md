@@ -2,7 +2,7 @@
 
 !!! Abstract收集一些已经或者正在使用的实用（好用）的Unity插件资源
 
-## 开发
+## 开发向
 
 ### HotReload
 
@@ -56,7 +56,27 @@ Odin Inspector 和 Serializer 是 Unity 中用于增强和扩展编辑器功能�
 
 资产：[Odin Inspector and Serializer | 实用工具 工具 | Unity Asset Store](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041?aid=1101l4bPZ)
 
-## 技术
+## 技术向
+
+### Cinemachine
+
+**Cinemachine** 是 Unity 中一个强大的摄像机插件，专门用于创建复杂的摄像机效果和视角控制。不需要再处理繁杂的相机脚本，能够应对绝大部分场景。它通过引入虚拟摄像机的概念，简化了开发者在 Unity 中实现高质量摄像机动画的过程，提供了简单易用的工具来控制摄像机的移动、旋转和对焦等行为。
+
+**Cinemachine** 的一些主要功能包括：
+
+1. **虚拟摄像机系统** ：允许开发者使用相机组件的虚拟实例，而不必直接操作实际摄像机。通过虚拟摄像机，可以灵活地设置和调整摄像机的各种参数.
+2. **目标跟踪** ：能够自动跟踪和对焦游戏中的目标物体，使摄像机的运动更加平滑和自然，适用于第三人称游戏等需要跟随角色的场景.
+3. **多摄像机管理** ：可以管理多个虚拟摄像机，并根据优先级和条件自动切换它们，以实现更流畅的镜头过渡和视角切换.
+4. **轨道系统** ：允许开发者在3D空间中定义相机的运动路径，实现更复杂的镜头动画，如环绕角色旋转或沿着特定轨迹移动.
+5. **镜头切换** ：支持创建切换镜头的区域，以便在游戏中实现不同的视角和效果，增强游戏的视觉表现力.
+6. **与 Timeline 集成** ：与 Unity 的 Timeline 集成，使开发者能够在时间轴上控制和调整相机动画，方便制作剧情动画和分镜效果.
+7. **渐变效果** ：通过 Impulse Listener 实现相机渐变效果，使相机对游戏中的事件有更生动的响应，如爆炸或撞击时的摄像机震动.
+
+总的来说，**Cinemachine** 是一个功能全面且灵活的摄像机工具，适合需要精细控制摄像机视角和动画的开发者。它是做游戏摄像机控制、剧情动画或任何需要复杂摄像机效果的 Unity 项目中非常实用的插件.
+
+官网：[Cinemachine | Unity](https://unity.com/cinemachine)
+
+资产：[Import samples to your project | Cinemachine | 3.1.2](https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/samples-import.html)
 
 ### DoTween(Pro)
 

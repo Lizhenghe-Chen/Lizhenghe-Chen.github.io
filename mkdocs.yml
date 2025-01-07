@@ -186,5 +186,6 @@ nav:
           - docs/Linux/WSL.md
           - docs/Linux/installUbuntu.md
           - docs/Linux/UbuntuSoftware.md
+          - docs/Linux/ollamaAnythingLLM.md
           - docs/Linux/condaPython.md
 

@@ -1,4 +1,4 @@
-# 安装Linux (Ubuntu Desktop)
+# 安装和部署 Ubuntu Desktop
 
 ## Linux简介
 
@@ -112,8 +112,24 @@ Linux的主流发行版包括：
 
 ##### 使用图形界面卸载：
 
-* 使用Synaptic包管理器，你可以安装它：`sudo apt-get install synaptic` 然后在该应用中通过筛选器或搜索你想卸载的软件包，通常在Status列中会出现“Installed”标签，第三方通常是“Installed(Manual\local\obsolete)”标签
+* 使用Synaptic [^Synaptic] 包管理器，你可以安装它：`sudo apt-get install synaptic` 然后在该应用中通过筛选器或搜索你想卸载的软件包，通常在Status列中会出现“Installed”标签，第三方通常是“Installed(Manual\local\obsolete)”标签
 
-## Ubuntu 远程端口 Shell
+## Ubuntu 远程端口 SSH Shell
 
-## 远程桌面
+[在 Ubuntu 中配置 SSH 的完整指南](https://cn.linux-console.net/?p=18128)
+
+确保本机和远端设备都安装好ssh后，可以直接通过命令行输入 `ssh username@address` 后
+
+[【Ubuntu】远程连接乌班图的方式-命令行界面、图形界面_ubuntu远程桌面-CSDN博客](https://blog.csdn.net/Best_lgx/article/details/137558756)
+
+## Ubuntu RDP远程桌面
+
+1. 使用系统自带功能：系统提供了两个选项，
+   1. **远程桌面协助** 但是需要本地解锁才行（**强烈建议您启用自动登录。在 Ubuntu Desktop 22.04 LTS 上，默认是启用屏幕空白和自动屏幕锁定。如果您的 Ubuntu 桌面空闲了一段时间，触发了屏幕空白或锁屏，您将与远程桌面会话断开连接。要解决此问题，您必须禁用屏幕空白和自动屏幕锁定以实现无缝的远程桌面会话。所以这个功能更适合远程协助**[^1]）
+   2. **远程RDP登录**，可以实现完整的权限、屏幕分辨率，是最经典的远程桌面，**必须要先确保本地段已经注销**，否则会黑屏。但注意，如果安装了XRDP（下面的第二部），可能会导致该选项失效。
+      此外，目前尝试发现，如果远程登录一个正在本地使用的账户，那么大概率会黑屏卡死，有效的解决方法是为远程桌面单独创建一个账户，用且仅用该账户作为远程桌面的登录账户。
+2. 使用RDP传统流程：[Ubuntu22.04远程桌面配置（RDP，VNC） - pipci - 博客园](https://www.cnblogs.com/pipci/p/16377032.html) 但是需要先在本地Ubuntu中注销，才能远程桌面
+
+[^Synaptic]: [Use Synaptic for more advanced software management](https://help.ubuntu.com/stable/ubuntu-help/addremove-install-synaptic.html.en)
+    
+[^1]: [在UBUNTU 24.04上开启远程桌面_ubuntu24.04远程桌面-CSDN博客](https://blog.csdn.net/qq_35534279/article/details/138371938)
