@@ -1,4 +1,5 @@
 ---
+title: Metaverse Joint Innovation Laboratory
 hide:
   - navigation
 #   - toc
@@ -28,6 +29,7 @@ hide:
 - ### 多人网络框架
 
     * #### VR多人军事无人机活动 -->
+
 # Hong Kong University of Science and Technology Guangzhou Metaverse Joint Innovation Laboratory[^1]
 
 1. Digital human technology based on large-scale model agents
@@ -42,17 +44,16 @@ hide:
 
 - ### Lightweight Drone Simulation in Unity
 
-    * #### VR Drone Virtual Simulation and Training
-    * #### Virtual Reality Drone Tours and Aerial Photography
-    * #### Virtual Reality Drone Firefighting
-    * #### VR Multiplayer Farm Economics Game Experiment
-
+  * #### VR Drone Virtual Simulation and Training
+  * #### Virtual Reality Drone Tours and Aerial Photography
+  * #### Virtual Reality Drone Firefighting
+  * #### VR Multiplayer Farm Economics Game Experiment
 - ### VR Virtual Sandbox Explanation
 - ### VR Virtual Reality Snatch and Shooting Training
 - ### AI Holographic Digital Human Framework
 - ### Multiplayer Network Framework
 
-    * #### VR Multiplayer Military Drone Activities
+  * #### VR Multiplayer Military Drone Activities
 
 ## Application Proofs
 
@@ -65,8 +66,8 @@ hide:
 ## Media Reports
 
 | [南沙迎来吃喝玩乐新地标 越秀地产N+天地正式启幕_湾区_项目_广州](https://www.sohu.com/a/775055083_100283120) | [南沙迎来吃喝玩乐新地标 越秀地产N+天地正式启幕](https://baijiahao.baidu.com/s?id=1797666141022783828) | [让青春乐聚湾区！粤港澳大湾区（南沙）青年生活+联盟启动](https://huacheng.gz-cmc.com/pages/2024/05/12/SF119648439c062bb0b7434d0e982230.html?channel=weixin) | [这群港科广人，在元宇宙里开展爱国主义教育 – 香港科技大学（广州）](https://www.hkust-gz.edu.cn/zh/2023/10/01/%e8%bf%99%e7%be%a4%e6%b8%af%e7%a7%91%e5%b9%bf%e4%ba%ba%ef%bc%8c%e5%9c%a8%e5%85%83%e5%ae%87%e5%ae%99%e9%87%8c%e5%bc%80%e5%b1%95%e7%88%b1%e5%9b%bd%e4%b8%bb%e4%b9%89%e6%95%99%e8%82%b2/) | [“独角兽”可能就在他们之中 ](https://huacheng.gz-cmc.com/pages/2024/05/08/6ac294f971af45da880660789d0ced53.html) |
-| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| ![1735110545554](image/index/1735110545554.png)                                                           | ![1735110559291](image/index/1735110559291.png)                                                      | ![1735110563194](image/index/1735110563194.png)                                                                                                           | ![1735110574177](image/index/1735110574177.png)                                                                                                                                                                                                                                                    | ![1735110569151](image/index/1735110569151.png)                                                                 |
+| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| ![1735110545554](image/index/1735110545554.png)                                                           | ![1735110559291](image/index/1735110559291.png)                                                      | ![1735110563194](image/index/1735110563194.png)                                                                                                           | ![1735110574177](image/index/1735110574177.png)                                                                                                                                                                                                                                                    | ![1735110569151](image/index/1735110569151.png)                                                                  |
 
 ## Papers
 
