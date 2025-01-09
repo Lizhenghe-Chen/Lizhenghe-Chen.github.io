@@ -173,6 +173,7 @@ nav:
       - MetaHuman:
           - docs/GPTRelated/index.md
           - docs/GPTRelated/Agent.md
+          - docs/GPTRelated/AICollections.md
           - docs/GPTRelated/LocalLLM.md
           - Sherpa ASR STT模块:
               - docs/GPTRelated/Sherpa Onnx ASR STT实战.md
