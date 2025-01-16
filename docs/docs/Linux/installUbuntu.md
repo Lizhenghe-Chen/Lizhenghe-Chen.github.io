@@ -39,14 +39,26 @@ Linux的主流发行版包括：
 
 * 系统语言建议安装英文，因为很多教程和文档都是英文的，这样方便找到正确的选项
 
+### 系统自带输入法
+
 安装好的Ubuntu默认是没有中文输入法的，但是可以在系统里面设置，虽然这个输入法的智能程度我觉得一般：
 
 [Ubuntu中文设置与安装中文输入法（超详细）_ubuntu中文输入法安装-CSDN博客](https://blog.csdn.net/fr16021028/article/details/125891812)
 
 !!!tip
     **Install/Remove Language** 之后一定要重启，重启后重点是keyboard里面添加点+，在点开chinese展开，选择拼音；
-    一些应用，如VSCode，如果使用系统自带的 APP Center 安装是无法输入中文的！请到官网下载.deb文件[Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/Download)
 
+### 使用搜狗输入法
+
+* 下载：[搜狗输入法linux-首页](https://shurufa.sogou.com/linux)
+* 官方教程：[搜狗输入法linux-安装指导](https://shurufa.sogou.com/linux/guide)
+ 
+!!!tip
+    按照搜狗的官方教程的第一种方法很可能是无法呼出搜狗输入法的，建议参考第二种方法，原因是缺少系统依赖项
+    可以参考 [ubuntu 20.04 安装好搜狗输入法无法输入中文，只能输入英文的问题，因为没有安装依赖_ubuntu搜狗输入法无法输入中文-CSDN博客](https://blog.csdn.net/ccsodefhy/article/details/123122200)
+!!!warning
+    一些应用，如VSCode，如果使用系统自带的 APP Center 安装是无法输入中文的！请到官网下载.deb文件[Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/Download)
+    
 ## 关于Linux安装和卸载软件
 
 ### deb和rpm安装包

@@ -18,23 +18,24 @@
 使用任何一种方式从项目仓库中下载zip或者克隆、fork项目到本地电脑
 项目仓库：[https://github.com/k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx "https://github.com/k2-fsa/sherpa-onnx")
 
-2. ### 构建（Build）
-[Windows — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/install/windows.html#bit-windows-x64)
+1. ### 构建（Build）
+参考 [Windows — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/install/windows.html#bit-windows-x64)
 克隆好项目后，使用VSCode或者其它编辑器打开该项目文件，或者使用命令窗口打开项目文件。
 构建项目，这里需要区分CPU版本还是GPU版本，构建需要一些时间。本次使用GPU版本，因为通常GPU速度更快（详情参考上面的官方文档）：  
 注意：可能需要安装[CMake](https://cmake.org/download/)才能构建
 ```
-   cd sherpa-onnx
-   mkdir build
-   cd build
-   cmake -DCMAKE_BUILD_TYPE=Release ..
-   cmake --build . --config Release
+git clone https://github.com/k2-fsa/sherpa-onnx
+cd sherpa-onnx
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON -DSHERPA_ONNX_ENABLE_GPU=ON ..
+cmake --build . --config Release
 ```
 ![1734577150298](image/SherpaOnnxASRSTT实战/1734577150298.png)
 构建成功后将会多出一个“build” 文件夹，里面有所有构建成功的APP（build\bin）
 ![1734578259585](image/SherpaOnnxASRSTT实战/1734578259585.png)
 
-3. ### 下载模型和导入
+1. ### 下载模型和导入
 接下来就是下载需要使用的已经训练好的模型：[Pre-trained models — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnx/pretrained_models/index.html#sherpa-onnx-pre-trained-models)  
 要确定哪模型的类型是否适用当前的APP，可以使用指令 `./build/bin/Release/sherpa-onnx-online-websocket-server` 在当前目录中查看help信息：
 ```
@@ -138,7 +139,7 @@
 ```
 可以看出，模型的类型需要有 tokens, encoder, joiners,decoder 这几个参数，然后才能运行。所以 **Zipformer** 的模型应该是最适合的，所以下载[Zipformer-transducer-based Models — sherpa 1.3 documentation](https://k2-fsa.github.io/sherpa/onnpretrained_models/online-transducer/zipformer-transducer-models.html#sherpa-onnx-streaming-zipformer-bilingual-zh-en-2023-02-20)模型，并放置在该项目的 **根目录** 中以供后续使
 ![1734579922377](image/SherpaOnnxASRSTT实战/1734579922377.png)
-4. ### 运行测试程序
+1. ### 运行测试程序
 根据[Streaming WebSocket server and client ](https://k2-fsa.github.io/sherpa/onnx/websocket/online-websocket.html#start-the-server)输入以下指令，指定模型后方可运行服务器，服务器支持多个设备同时访问：
 ```
 ./build/bin/Release/sherpa-onnx-online-websocket-server `
@@ -154,7 +155,7 @@
   --loop-interval-ms=20
 ```  
 
-5. ### 启动API程序  
+1. ### 启动API程序  
     * 首先可以先用案例音频文件做测试，案例提供了Python程序作为客户端，python获取音频文件信息并发送给服务器，服务器处理完成后返回识别出来的文本信息。   在确保上一步的服务器后台运行的情况下，新建一个命令窗口执行python程序（你需要使用python的pip或者虚拟环境确  赖的package支持,需要numpy，websockets，你将会看到服务器以stream 的方式逐字的返回音频的识别结果:
     ```
     python ./python-api-examples/online-websocket-client-decode-file.py `
@@ -281,6 +282,6 @@
 
     Caught Ctrl + C. Exiting
     ```
-6. ### 客户端程序对接
+2. ### 客户端程序对接
 现在参考python客户端的逻辑，就可以用其它编程语言，通过Websocket直接对接服务器了
 

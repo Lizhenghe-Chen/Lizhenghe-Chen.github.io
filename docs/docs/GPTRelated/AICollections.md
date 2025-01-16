@@ -22,4 +22,9 @@
 * [EchoMimic: Lifelike Audio-Driven Portrait Animations](https://antgroup.github.io/ai/echomimic/) [[让外国人秒说中文，开源AI翻译天花板，保姆级教程！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1DS421X7YQ?spm_id_from=333.788.player.switch&vd_source=964bbd88f350a12d2453698dd08ec8ca)]
 * [KwaiVGI/LivePortrait: Bring portraits to life!](https://github.com/KwaiVGI/LivePortrait) [[AI太刑了，随心掌控的表情和动作！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Zy411e7q1?spm_id_from=333.788.player.switch&vd_source=964bbd88f350a12d2453698dd08ec8ca)] [[AI语音生成天花板，效果吊打实测，全网最简单！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV18T421Y7FG/?spm_id_from=333.1387.homepage.video_card.click&vd_source=964bbd88f350a12d2453698dd08ec8ca)]
 
+## Unity数字人模型推荐
+
+* 简单版：[Casual 1 - Anime Girl Characters | 3D Humanoids | Unity Asset Store](https://assetstore.unity.com/packages/3d/characters/humanoids/casual-1-anime-girl-characters-185076)
+* j简单+超精：[Ida Faber - Asset Store](https://assetstore.unity.com/publishers/49957)
+
 [^muzili]: [LKZMuZiLi/human: Unity 实时3d数据人](https://github.com/LKZMuZiLi/human)
