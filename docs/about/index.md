@@ -1,20 +1,22 @@
 ---
-title: About
+title: 关于我 About Me
 icon: material/account-eye
 hide:
   - navigation
   - toc
 ---
-Hi there 👋, I am
 
+Hi there 👋, I am
 ```
- ____                             ____ _  
-| __ ) _   _ _ __  _ __  _   _   / ___| |__   ___ _ __  
-|  _ \| | | | '_ \| '_ \| | | | | |   | '_ \ / _ \ '_ \ 
-| |_) | |_| | | | | | | | |_| | | |___| | | |  __/ | | |
-|____/ \__,_|_| |_|_| |_|\__, |  \____|_| |_|\___|_| |_|
-                         |___/  
+ _     _     _                      _             ____ _          
+| |   (_)___| |__   ___ _ __   __ _| |__   ___   / ___| |__   ___ _ __  
+| |   | |_  / '_ \ / _ \ '_ \ / _` | '_ \ / _ \ | |   | '_ \ / _ \ '_ \ 
+| |___| |/ /| | | |  __/ | | | (_| | | | |  __/ | |___| | | |  __/ | | |
+|_____|_/___|_| |_|\___|_| |_|\__, |_| |_|\___|  \____|_| |_|\___|_| |_|
+                              |___/                               
 ```
+
+<!-- https://www.asciiart.eu/text-to-ascii-art -->
 
 ## Personal Profile
 
@@ -75,12 +77,12 @@ public class LizhengheChen {
 > As long as GitHub and I are not finished,
 > then let this site lie in the ocean of the Internet
 > JUST FOR FUN
-> w
-> [网站内容版权申明](LICENSE.md)
+> [Website License](LICENSE.md)
 
 [My GitHub](https://github.com/Lizhenghe-Chen){ .md-button }
 [CSDN](https://blog.csdn.net/weixin_46146935?type=blog){ .md-button }
 [Photographs](https://bunnychen.tuchong.com/){ .md-button }
 [LinkedIn](https://www.linkedin.com/in/lizhenghe-chen){ .md-button }
 [Video Works](https://space.bilibili.com/34871506){ .md-button }
+[My Games &amp; Demo](./myGames.md){ .md-button }
 [ArtStation](https://www.artstation.com/lizhenghe_chen){ .md-button }

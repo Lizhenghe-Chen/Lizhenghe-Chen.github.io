@@ -161,6 +161,7 @@ nav:
   - About:
       - about/index.md
       - about/LICENSE.md
+      - about/myGames.md
       - about/MetaverseJointInnovationLaboratory/index.md
   - Blog:
       - blog/index.md
@@ -178,6 +179,7 @@ nav:
           - Sherpa ASR STT模块:
               - docs/GPTRelated/Sherpa Onnx ASR STT实战.md
               - docs/GPTRelated/Sherpa-onnx STT Windows.md
+              - docs\GPTRelated\Sherpa-onnx STT Linux.md
       - MkDocs:
           - docs/mkdocsTutorials/index.md
           - docs/mkdocsTutorials/start.md
