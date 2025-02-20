@@ -5,15 +5,15 @@ hide:
   - navigation
   - toc
 ---
-
 Hi there 👋, I am
+
 ```
- _     _     _                      _             ____ _          
+ _     _     _                      _             ____ _      
 | |   (_)___| |__   ___ _ __   __ _| |__   ___   / ___| |__   ___ _ __  
 | |   | |_  / '_ \ / _ \ '_ \ / _` | '_ \ / _ \ | |   | '_ \ / _ \ '_ \ 
 | |___| |/ /| | | |  __/ | | | (_| | | | |  __/ | |___| | | |  __/ | | |
 |_____|_/___|_| |_|\___|_| |_|\__, |_| |_|\___|  \____|_| |_|\___|_| |_|
-                              |___/                               
+                              |___/                           
 ```
 
 <!-- https://www.asciiart.eu/text-to-ascii-art -->
@@ -30,7 +30,29 @@ I have had the opportunity to work in different capacities, currently as a Unity
 
 4 years studied at [**The Xi&#39;an JIAOTONG-LIVERPOOL UNIVERSITY**](https://www.xjtlu.edu.cn) & [**The UNIVERSITY OF LIVERPOOL**](https://www.liverpool.ac.uk) for Computer Science Bachelor’s degree
 1 year in [**The UNIVERSITY OF Bristol**](https://www.bristol.ac.uk) for Aerial Robotics Master’s degree.
-Now working at [**The Hong Kong University of Science and Technology (Guangzhou)**](https://www.hkust-gz.edu.cn/) for [**Metaverse Joint Innovation Laboratory**](./MetaverseJointInnovationLaboratory/index.md){ .md-button }
+
+## Working Experience
+
+### **Research Assistant** - (September 2023 - Present)
+
+* Now working at [**The Hong Kong University of Science and Technology (Guangzhou)**](https://www.hkust-gz.edu.cn/) for [**Metaverse Joint Innovation Laboratory**](./MetaverseJointInnovationLaboratory/index.md){ .md-button }
+* Responsibilities include game design, virtual reality (VR), and various other skills.
+
+### **Researcher** - University of Liverpool (July 2021 - August 2021)
+
+* Worked on the implementation of virtual reality technology, developing Unity games and hardware programming.
+
+### **Editor** - Yunnan Leixun Online Cultural Development Co., Ltd. (July 2020 - August 2020)
+
+* Learned video editing, poster production, and how to promote and operate Sina Weibo advertising products.
+
+### **Lobby Manager** - China Merchants Bank (January 2020 - March 2020)
+
+* Mastered basic business skills and learned financial management, business promotion, and marketing methods.
+
+### **Intern** - Huawei (June 2019)
+
+* Participated in an undergraduate training project at Huawei Software Development Cloud, learning software development and web design.
 
 ---
 

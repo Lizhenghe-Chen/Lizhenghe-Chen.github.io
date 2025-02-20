@@ -115,6 +115,9 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/?h=permanent#table-of-contents
   - toc:
       toc_depth: 4
@@ -179,7 +182,7 @@ nav:
           - Sherpa ASR STT模块:
               - docs/GPTRelated/Sherpa Onnx ASR STT实战.md
               - docs/GPTRelated/Sherpa-onnx STT Windows.md
-              - docs\GPTRelated\Sherpa-onnx STT Linux.md
+              - docs/GPTRelated/Sherpa-onnx STT Linux.md
       - MkDocs:
           - docs/mkdocsTutorials/index.md
           - docs/mkdocsTutorials/start.md
@@ -191,4 +194,10 @@ nav:
           - docs/Linux/UbuntuSoftware.md
           - docs/Linux/ollamaAnythingLLM.md
           - docs/Linux/condaPython.md
+      - MacOS Notes:
+          - docs/MacOS/index.md
+          - docs/MacOS/pythonSetUp.md
+      - Other:
+          - docs/Other/index.md
+          - docs/Other/广州落户.md
 

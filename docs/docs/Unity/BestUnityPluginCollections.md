@@ -59,6 +59,34 @@ Odin Inspector 和 Serializer 是 Unity 中用于增强和扩展编辑器功能�
 
 ## 技术向
 
+### 道路生成组件
+
+#### RoadArchitect（Free）
+
+一个相当不错且功能全面的免费开源道路编辑器，简单使用了一下，效果还是相当不错的，但是还是会在交叉路口和桥梁弯道上有一些穿模和一些麻烦的设置，但对于一个开源免费的组件来说效果还不错的
+
+资产：[FritzsHero/RoadArchitect: Road Architect for Unity; Development is ongoing but slow; Also available at GitLab: https://gitlab.com/FritzsHero/roadarchitect](https://github.com/FritzsHero/RoadArchitect?tab=readme-ov-file)
+
+#### EasyRoads3D（Pay + Free）
+
+一个看起来功能更加强大的道路生成组件，但是我还没有尝试过
+
+官网：[EasyRoads3D.com - Unity Tools - No Speed limit - Fast results](https://www.easyroads3d.com/)
+
+资产：[EasyRoads3D Free v3 | 3D Characters | Unity Asset Store](https://assetstore.unity.com/packages/3d/characters/easyroads3d-free-v3-987)
+
+#### Road Constructor（Pay）
+
+还未尝试，价格过高，功能可能更全。
+
+资产：[Road Constructor | 关卡设计 | Unity Asset Store](https://assetstore.unity.com/packages/tools/level-design/road-constructor-287445)
+
+### Simple Spin Blur
+
+官网：[Home | AiKodex](https://www.aikodex.com/)
+
+资产：[Simple Spin Blur | 整合 | Unity Asset Store](https://assetstore.unity.com/packages/tools/integration/simple-spin-blur-202273)
+
 ### Cinemachine
 
 **Cinemachine** 是 Unity 中一个强大的摄像机插件，专门用于创建复杂的摄像机效果和视角控制。不需要再处理繁杂的相机脚本，能够应对绝大部分场景。它通过引入虚拟摄像机的概念，简化了开发者在 Unity 中实现高质量摄像机动画的过程，提供了简单易用的工具来控制摄像机的移动、旋转和对焦等行为。
