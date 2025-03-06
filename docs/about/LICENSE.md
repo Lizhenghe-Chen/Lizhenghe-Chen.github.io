@@ -2,6 +2,8 @@
 title: 版权声明 LICENSE
 icon: material/account-eye
 ---
+本站遵循 [CC-BY-NC 4.0 协议](https://creativecommons.org/licenses/by-nc/4.0/)
+
 **版权所有 © [2019-2025] [Lizhenghe.Chen]**
 
 本网站（包括但不限于 **所有页面** 的文本、图像、音频、视频、图表）的分内容均为[Lizhenghe.Chen]原创，除非标注有引用源，否则享有完整的著作权。任何个人或实体不得复制、下载或以其他任何方式使用、盗用本网站的内容。允许带有标明出处的引用和转载。任何未经授权的使用行为都可能构成对著作权的侵犯，并可能导致相应的法律责任。
@@ -18,7 +20,11 @@ icon: material/account-eye
 
 **版权声明的修改：** [Lizhenghe.Chen] 保留随时修改本著作权声明的权利，任何修改均具有法律效力。请定期查看本声明的最新版本。
 
-**Copyright Notice**
+---
+
+
+
+Please follow [CC-BY-NC 4.0 ](https://creativecommons.org/licenses/by-nc/4.0/)
 
 **All rights reserved © [2019-2025] [Lizhenghe.Chen]**
 

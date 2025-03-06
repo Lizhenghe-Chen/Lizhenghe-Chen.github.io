@@ -3,7 +3,7 @@ site_author: Lizhenghe Chen
 site_description: Lizhenghe Chen's personal Blog and Docs
 
 # Copyright
-copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe Chen | v1.1.2.3</a>
+copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe Chen | v1.1.2.4</a>
 site_url: https://bunnychen.top/
 # repo_url: https://bunnychen.top/
 # repo_name: BunnyChen
@@ -163,9 +163,11 @@ nav:
   - index.md
   - About:
       - about/index.md
+      - about/index-en.md
       - about/LICENSE.md
       - about/myGames.md
       - about/MetaverseJointInnovationLaboratory/index.md
+      - about/MetaverseJointInnovationLaboratory/index-zh.md
   - Blog:
       - blog/index.md
   # use the file name as the title

@@ -4,7 +4,7 @@ title: My Games
 <div align="center">
 <iframe src="https://player.bilibili.com/player.html?aid=693111969&bvid=BV1i24y167rd&cid=971944957&page=1" width="100%" height="500" scrolling="no"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-<iframe src="https://player.bilibili.com/player.html?aid=572080926&bvid=BV11z4y1v7w7&cid=1156231392&page=1" width="100%" height="500" scrolling="no"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 
 <button class="btn" onclick="window.open('https://space.bilibili.com/34871506/channel/collectiondetail?sid=996544&ctype=0')">Watch More On Bilibili</button>
 <button class="btn" onclick="window.open('https://blog.csdn.net/weixin_46146935?type=blog')">See More Dev Log On CSDN</button>
@@ -16,6 +16,8 @@ title: My Games
 </div>
 
 ## Metaverse VR Drone Simulations
+
+<iframe src="https://player.bilibili.com/player.html?aid=572080926&bvid=BV11z4y1v7w7&cid=1156231392&page=1" width="100%" height="500" scrolling="no"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## Metahuman GPT
 
@@ -48,7 +50,7 @@ simpile Modified from Unity Official miniGame, Jump and run, it is boring and wi
 
 ## Mass Hit
 
-[**Mass Hit**](https://github.com/Lizhenghe-Chen/Personal-Unity-Small-Game--MassHit--Development/blob/master/README.md){ .md-button } **Still in development**
+[**Mass Hit**](https://github.com/Lizhenghe-Chen/Personal-Unity-Small-Game--MassHit--Development/blob/master){ .md-button } **Still in development**
 
 This game needs to control the ball to explore the task, with rich interaction mechanism, UI, physics and excellent visual effects. Because the project is huge, there is no systematic time for continuous development, so the level design and scene construction are not good, and may require multiple people to develop.
  ![image](https://user-images.githubusercontent.com/61171413/229115502-a5baa299-3f93-477c-8613-e535ef88b5d2.png)

@@ -1,32 +1,3 @@
----
-title: Metaverse Joint Innovation Laboratory
----
-<!-- # 香港科技大学广州元宇宙联合创新实验室[^1]
-
-1. 基于大规模模型智能体的数字人技术
-2. 虚拟空间中的多感官人机交互技术
-3. 基于人体数据实时采集的虚拟体现技术
-4. 基于人工智能的元宇宙内容生成技术
-5. 元宇宙教学的社会适应性研究
-
-![1735145107029](image/index/1735145107029.jpg)
-
-## 功能以及产品
-
-- ### Unity轻量级无人机仿真
-
-    * #### VR无人机虚拟仿真和培训
-    * #### 虚拟现实无人机环游世界和航拍
-    * #### 虚拟现实无人机灭火
-    * #### VR多人农场经济学博弈实验
-
-- ### VR虚拟沙盘讲解
-- ### VR虚拟现实拼抢和射击训练
-- ### AI全息数字人框架
-- ### 多人网络框架
-
-    * #### VR多人军事无人机活动 -->
-
 # Hong Kong University of Science and Technology Guangzhou Metaverse Joint Innovation Laboratory[^1]
 
 1. Digital human technology based on large-scale model agents
