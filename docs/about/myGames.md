@@ -1,10 +1,8 @@
 ---
-title: My Games
+title: My Demos
 ---
 <div align="center">
 <iframe src="https://player.bilibili.com/player.html?aid=693111969&bvid=BV1i24y167rd&cid=971944957&page=1" width="100%" height="500" scrolling="no"  frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-
 
 <button class="btn" onclick="window.open('https://space.bilibili.com/34871506/channel/collectiondetail?sid=996544&ctype=0')">Watch More On Bilibili</button>
 <button class="btn" onclick="window.open('https://blog.csdn.net/weixin_46146935?type=blog')">See More Dev Log On CSDN</button>
@@ -14,6 +12,17 @@ title: My Games
 <h6>WebGL dose not support mobile devices. All games should be able to run on mobile devices, but low performance and more bugs, so please try computer Browser ~ </h6>
 <hr>
 </div>
+
+## Metaverse Joint Innovation Laboratory
+[**Link**](./MetaverseJointInnovationLaboratory/index.md#functions-and-products){ .md-button } **Working On it**
+
+## HKUST-GZ-Photography: For testing HDRP and other functions
+
+[**GitHub Download**](https://github.com/Lizhenghe-Chen/HKUST-GZ-Photography){ .md-button } **Still in development(On Hold)**
+
+It is used to test HDRP and other functions, mainly used to learn and practice photo skills and basic knowledge, interested partners can download and try
+
+![1741582750564](image/myGames/1741582750564.png)
 
 ## Metaverse VR Drone Simulations
 

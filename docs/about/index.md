@@ -29,12 +29,12 @@ hide:
 </figure>
 ---
 
+[My Games &amp; Demo](./myGames.md){ .md-button }
 [My GitHub](https://github.com/Lizhenghe-Chen){ .md-button }
 [CSDN](https://blog.csdn.net/weixin_46146935?type=blog){ .md-button }
 [Photographs](https://bunnychen.tuchong.com/){ .md-button }
 [LinkedIn](https://www.linkedin.com/in/lizhenghe-chen){ .md-button }
 [Video Works](https://space.bilibili.com/34871506){ .md-button }
-[My Games &amp; Demo](./myGames.md){ .md-button }
 [ArtStation](https://www.artstation.com/lizhenghe_chen){ .md-button }
 
 ---

@@ -15,7 +15,7 @@ Hi, 👋 I'm
 | |   | |_  / '_ \ / _ \ '_ \ / _` | '_ \ / _ \ | |   | '_ \ / _ \ '_ \ 
 | |___| |/ /| | | |  __/ | | | (_| | | | |  __/ | |___| | | |  __/ | | |
 |_____|_/___|_| |_|\___|_| |_|\__, |_| |_|\___|  \____|_| |_|\___|_| |_|
-                              |___/            
+                              |___/          
 ```
 
 <!-- <url id="cusiu8im52t17mknkgng" type="url" status="parsed" title="Text to ASCII: The best ASCII Art Generator & Maker" wc="3438">https://www.asciiart.eu/text-to-ascii-art  </url>  -->
@@ -29,12 +29,12 @@ I'm a 25-year-old individual with a background in Computer Science and Robotics,
 </figure>
 ---
 
+[My Games &amp; Demo](./myGames.md){ .md-button }
 [My GitHub](https://github.com/Lizhenghe-Chen){ .md-button }
 [CSDN](https://blog.csdn.net/weixin_46146935?type=blog){ .md-button }
 [Photographs](https://bunnychen.tuchong.com/){ .md-button }
 [LinkedIn](https://www.linkedin.com/in/lizhenghe-chen){ .md-button }
 [Video Works](https://space.bilibili.com/34871506){ .md-button }
-[My Games &amp; Demo](./myGames.md){ .md-button }
 [ArtStation](https://www.artstation.com/lizhenghe_chen){ .md-button }
 
 ---
@@ -136,6 +136,5 @@ public class LizhengheChen {
 > As long as GitHub and I are not finished,
 > then let this site lie in the ocean of the Internet
 > JUST FOR FUN
->
 >
 > [Website License](LICENSE.md)
