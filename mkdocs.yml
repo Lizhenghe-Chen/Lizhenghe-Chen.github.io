@@ -3,7 +3,7 @@ site_author: Lizhenghe Chen
 site_description: Lizhenghe Chen's personal Blog and Docs
 
 # Copyright
-copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe Chen | v1.1.2.4</a>
+copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe Chen | v1.1.2.5</a>
 site_url: https://bunnychen.top/
 # repo_url: https://bunnychen.top/
 # repo_name: BunnyChen
@@ -176,15 +176,25 @@ nav:
       - Unity Docs:
           - docs/Unity/index.md
           - docs/Unity/BestUnityPluginCollections.md
+          - docs/Unity/SimpleUnityWindSimulation.md
+          - docs/Unity/SimpleUnityLidarSimulation.md
+      - AI Tools:
+          - docs/AINotes/index.md
+          - docs/AINotes/AnythingLLMVectorData.md
+          - docs/AINotes/CodeFormer.md
+          - docs/AINotes/ComicFactory.md
+          - docs/AINotes/CosyVioce.md
+          - docs/AINotes/OpenWebUI.md
+          - docs/AINotes/PaddleOCR.md
       - MetaHuman:
-          - docs/GPTRelated/index.md
-          - docs/GPTRelated/Agent.md
-          - docs/GPTRelated/AICollections.md
-          - docs/GPTRelated/LocalLLM.md
+          - docs/MetaHuman/index.md
+          - docs/MetaHuman/Agent.md
+          - docs/MetaHuman/AICollections.md
+          - docs/MetaHuman/LocalLLM.md
           - Sherpa ASR STT模块:
-              - docs/GPTRelated/Sherpa Onnx ASR STT实战.md
-              - docs/GPTRelated/Sherpa-onnx STT Windows.md
-              - docs/GPTRelated/Sherpa-onnx STT Linux.md
+              - docs/MetaHuman/Sherpa Onnx ASR STT实战.md
+              - docs/MetaHuman/Sherpa-onnx STT Windows.md
+              - docs/MetaHuman/Sherpa-onnx STT Linux.md
       - MkDocs:
           - docs/mkdocsTutorials/index.md
           - docs/mkdocsTutorials/start.md
@@ -201,5 +211,6 @@ nav:
           - docs/MacOS/pythonSetUp.md
       - Other:
           - docs/Other/index.md
+          - docs/Other/BunnyChenDroneFramwork.md
           - docs/Other/广州落户.md
 

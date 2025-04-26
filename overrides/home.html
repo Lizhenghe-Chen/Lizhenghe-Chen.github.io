@@ -75,12 +75,16 @@
             <div class="mdx-hero__content">
                 <h1>{{ config.site_name }}</h1>
                 <p>{{ config.site_description }}</p>
-                <a href="{{ 'blog/' | url }}" title="{{ page.next_page.title | e }}"
-                    class="md-button md-button--primary">
+                <a href="{{ 'blog/' | url }}" title="{{ page.next_page.title | e }}" class="md-button">
                     My Blog
                 </a>
                 <a href="{{ 'about/' | url }}" title="About Author" class="md-button">
-                    About me
+                    About Me
+                </a>
+                <div style="margin-top: 5px;"></div> <!-- 自定义间距 -->
+                <!-- New Doc button -->
+                <a href="{{ 'docs/' | url }}" title="Documentation" class="md-button md-button--primary">
+                    My Docs
                 </a>
             </div>
         </div>
