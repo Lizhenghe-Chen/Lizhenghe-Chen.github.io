@@ -60,16 +60,16 @@ curl https://api.openai.com/v1/chat/completions \
     * **功能简介** ：这是模型本身的作用，根据系统设置的上下文响应用户输入。
   * * **何时使用** ：当模型回复用户的查询或遵循系统的指示时，模型会自动代入此角色。
 
-### 大语言模型平台（LLM）
+### 大语言模型平台（Ollama LLM）
 
 以下任意一种平台均可使用统一的OpenAI规范接口，所以都只用更改网址、API Key和model名称即可！
 
 * 如果你使用ChatGPT，那么就很简单了，直接用上面的接口格式就行，只需要API key 和模型名称即可：如在控制台中输入：`ollama run qwen2.5` 即可下载运行千问大模型
 * 如果使用Ollama部署本地大模型：
 
-  * 同样可以使用Open AI规范的形式，参考：[OpenAI compatibility · Ollama Blog][https://ollama.com/blog/openai-compatibility)
+  * 同样可以使用Open AI规范的形式，参考：[OpenAI compatibility · Ollama Blog](https://ollama.com/blog/openai-compatibility)
   * 只要下载并部署好Ollama并安装好指定的模型即可
-  * 常用的Ollama环境变量设置（[Global Configuration Variables for Ollama · Issue #2941 · ollama/ollama](https://github.com/ollama/ollama/ issues/2941#issuecomment-2322778733)）：
+  * 常用的Ollama环境变量设置[Global Configuration Variables for Ollama · Issue #2941 · ollama/ollama](https://github.com/ollama/ollama/issues/2941#issuecomment-2322778733)：
 
     > * `OLLAMA_ORIGINS`: 允许的来源，用于跨域请求，如果遇到（CORS）问题，可以设置变量为 `*`
     > * `OLLAMA_MODELS`: 指定模型下载存储路径，默认是 `$HOME/.ollama/models`
@@ -78,11 +78,11 @@ curl https://api.openai.com/v1/chat/completions \
     >
 
     !!!Note:
-    如果需要外网或者局域网的其它设备访问到，必须配置其Host值为"0,0,0,0"，并确保端口防火墙是开放的。[Linux/Windows 系统 ollama 配置允许外网访问－Windows 日常故障－瓦力技术小记](https://www.walimao.com/archives/675.html)，在其它电脑上输入【ollama主机ip:11434】，如果出现`Ollama is running`就🆗了
+    如果需要外网或者局域网的其它设备访问到，必须配置其Host值为"0,0,0,0"，并确保端口防火墙是开放的。[Linux/Windows 系统 ollama 配置允许外网访问－Windows 日常故障－瓦力技术小记](https://www.walimao.com/archives/675.html)，在其它电脑上输入【ollama主机ip:11434】，如果出现 `Ollama is running`就🆗了
 * 如果使用AnythingLLM搭建本地知识库
 
   1. 确保Ollama已经安装
-  2. 下载安装[Download AnythingLLM for Desktop][https://anythingllm.com/download)
+  2. 下载安装：[Download AnythingLLM for Desktop](https://anythingllm.com/desktop)
   3. 然后简单的配置好，指定Ollama为内核即可
   4. 为了能够像OpenAI那样使用网络API接口，在 设置>工具>API密钥 里申请一个密钥，然后点击“阅读API文档”，点击“Authorize”将密钥复制进去就可以测试接口了：
   5. 在你创建完一个workspace后，就可以查阅模型名称：

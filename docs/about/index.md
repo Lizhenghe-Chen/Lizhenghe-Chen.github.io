@@ -15,7 +15,7 @@ hide:
 | |   | |_  / '_ \ / _ \ '_ \ / _` | '_ \ / _ \ | |   | '_ \ / _ \ '_ \ 
 | |___| |/ /| | | |  __/ | | | (_| | | | |  __/ | |___| | | |  __/ | | |
 |_____|_/___|_| |_|\___|_| |_|\__, |_| |_|\___|  \____|_| |_|\___|_| |_|
-                              |___/                
+                              |___/              
 ```
 
 <!-- <url id="cusiu8im52t17mknkgng" type="url" status="parsed" title="Text to ASCII: The best ASCII Art Generator & Maker" wc="3438">https://www.asciiart.eu/text-to-ascii-art</url>  -->
@@ -41,7 +41,7 @@ hide:
 
 ## 职业经历
 
-### **Unity工程师** - [香港科技大学（广州）](https://www.hkust-gz.edu.cn/)[元宇宙联合创新实验室](./MetaverseJointInnovationLaboratory/index.md)（2023年9月 - 至今）
+### **Unity工程师** - [香港科技大学（广州）](https://www.hkust-gz.edu.cn/)[元宇宙联合创新实验室](./MetaverseJointInnovationLaboratory/index.md){ .md-button }（2023年9月 - 至今）
 
 * 参与和主导元宇宙教育平台的核心模块开发，负责从需求分析到系统架构设计、功能实现及优化的全流程管理。通过敏捷开发方法，实现快速的功能实现和产出；
 * 运用C#和Unity框架，基于VR、Windows、安卓、网页等多平台搭建多种类的数字孪生、虚拟现实、人机交互、多人联机等方向的应用和实验
@@ -135,6 +135,5 @@ public class LizhengheChen {
 > As long as GitHub and I are not finished,
 > then let this site lie in the ocean of the Internet
 > JUST FOR FUN
->
 >
 > [Website License](LICENSE.md)

@@ -14,7 +14,7 @@ title: My Demos
 </div>
 
 ## Metaverse Joint Innovation Laboratory
-[**Link**](./MetaverseJointInnovationLaboratory/index.md#functions-and-products){ .md-button } **Working On it**
+[**Working On it**](./MetaverseJointInnovationLaboratory/index.md){ .md-button }
 
 ## HKUST-GZ-Photography: For testing HDRP and other functions
 

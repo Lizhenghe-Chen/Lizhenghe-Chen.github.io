@@ -3,7 +3,7 @@ site_author: Lizhenghe Chen
 site_description: Lizhenghe Chen's personal Blog and Docs
 
 # Copyright
-copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe Chen | v1.1.2.5</a>
+copyright: <a href="/about/LICENSE">Copyright &copy; 2019 - 2025 Lizhenghe Chen | v1.1.2.6</a>
 site_url: https://bunnychen.top/
 # repo_url: https://bunnychen.top/
 # repo_name: BunnyChen
@@ -158,6 +158,12 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 # Page tree
 nav:
   - index.md
@@ -167,7 +173,7 @@ nav:
       - about/LICENSE.md
       - about/myGames.md
       - about/MetaverseJointInnovationLaboratory/index.md
-      - about/MetaverseJointInnovationLaboratory/index-zh.md
+      # - about/MetaverseJointInnovationLaboratory/index-zh.md
   - Blog:
       - blog/index.md
   # use the file name as the title
@@ -176,6 +182,7 @@ nav:
       - Unity Docs:
           - docs/Unity/index.md
           - docs/Unity/BestUnityPluginCollections.md
+          - docs/Unity/physicsInUnity.md
           - docs/Unity/SimpleUnityWindSimulation.md
           - docs/Unity/SimpleUnityLidarSimulation.md
       - AI Tools:

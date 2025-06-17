@@ -32,7 +32,9 @@ CosyVoice 是阿里巴巴通义实验室开发的开源多语言语音合成模�
    sys.path.append('third_party/Matcha-TTS')
    app = Flask(__name__)
 
-   cosyvoice = CosyVoice2('pretrained_models/CosyVoice2-0.5B', load_jit=False, load_trt=False, fp16=False, use_flow_cache=False)
+   cosyvoice = CosyVoice2('pretrained_models/CosyVoice2-0.5B', load_jit=False, load_trt=False, load_vllm=False, fp16=False)
+   prompt_speech_16k = load_wav('./asset/zero_shot_prompt.wav', 16000)
+
    prompt = load_wav('./asset/zero_shot_prompt.wav', 16000)
 
    # 粤语ID示例，根据Unity语音ID进行处理
@@ -71,7 +73,7 @@ CosyVoice 是阿里巴巴通义实验室开发的开源多语言语音合成模�
        return send_file(mp3_buffer, mimetype="audio/mpeg", download_name="tts.mp3")
 
    if __name__ == "__main__":
-       app.run(host="0.0.0.0", port=19463)
+       app.run(host="0.0.0.0", port=19464, threaded=True)
    ```
 3. 客户端也很简单，其他平台和编程语言都可以参考WebRequest形式获取到生成的语音，生成的语音将会保存为 `output.mp3`：
    ```python
@@ -116,3 +118,30 @@ CosyVoice 是阿里巴巴通义实验室开发的开源多语言语音合成模�
        voice_id_to_use = 0  # 示例语音 ID，根据需要修改
        test_tts_server(text_to_speak, voice_id_to_use)
    ```
+
+## 复用克隆语音
+
+可以使用案例素材作为测试：[CosyVoice2.0](https://funaudiollm.github.io/cosyvoice2/#Zero-shot%20In-context%20Generation)
+
+一旦克隆后并保存一次，如保存为“my_zero_shot_spk”之后就可以直接复用克隆的音色了：
+
+```python
+import sys
+sys.path.append('third_party/Matcha-TTS')
+from cosyvoice.cli.cosyvoice import CosyVoice, CosyVoice2
+from cosyvoice.utils.file_utils import load_wav
+import torchaudio
+
+cosyvoice = CosyVoice2('pretrained_models/CosyVoice2-0.5B', load_jit=False, load_trt=False, load_vllm=False, fp16=False)
+prompt_speech_16k = load_wav('./asset/ZH_6_prompt.wav', 16000)
+
+# 1.save zero_shot spk for future usage
+assert cosyvoice.add_zero_shot_spk('周日被我射熄火了，所以今天是周一', prompt_speech_16k, 'my_zero_shot_spk') is True
+for i, j in enumerate(cosyvoice.inference_zero_shot('收1232', '', '', zero_shot_spk_id='my_zero_shot_spk', stream=False)):
+    torchaudio.save('zero_shot_{}.wav'.format(i), j['tts_speech'], cosyvoice.sample_rate)
+cosyvoice.save_spkinfo()
+
+# 2. load and reuse zero_shot spk from spkinfo
+for i, j in enumerate(cosyvoice.inference_zero_shot('收到好友从远方寄来的生日礼物，那份意外的惊喜与深深的祝福让我心中充满了甜蜜的快乐，笑容如花儿般绽放hahahah。', '', '', zero_shot_spk_id='my_zero_shot_spk', stream=False)):
+    torchaudio.save('zero_shot_{}.wav'.format(i), j['tts_speech'], cosyvoice.sample_rate)
+```
