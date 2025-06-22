@@ -69,7 +69,7 @@ public class MassTest : MonoBehaviour
     public Button reset;
     public TMPro.TextMeshProUGUI debugText; // Text component to display debug information
     public float mass = 1f; // Adjustable mass of the Rigidbody
-    public float force = 10f; // Adjustable force applied to the Rigidbody
+    public float force = 5f; // Adjustable force applied to the Rigidbody
     public float endDistance = 10f; // Target distance to stop the Rigidbody
 
     private bool _isStarted = false;
@@ -138,6 +138,6 @@ public class MassTest : MonoBehaviour
 
 ## 结论
 
-### 最终我们能观察到，物体在几乎2秒内沿直线运动了10米，符合我们的预期。证明Unity中的物理单位（m，kg，N）是符合现物理环境的。
+### 最终我们能观察到，物体在几乎2秒内沿直线运动了10米，符合我们的预期。证明Unity中的物理单位（m，kg，N）是符合现实物理意义的。
 
 ![1750136737644](image/physicsInUnity/1750136737644.gif)
