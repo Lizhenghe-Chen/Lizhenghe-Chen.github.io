@@ -1,66 +1,21 @@
-# 本地部署大语言模型
+# 本地部署Ollama + AnythingLLM知识库
 
- Try some interesting things with Unity and GPT, and most importantly: Learning!
+## 本地部署
 
-```
-······················································································
-:██████╗ ██╗   ██╗███╗   ██╗███╗   ██╗██╗   ██╗     ██████╗██╗  ██╗███████╗███╗   ██╗:
-:██╔══██╗██║   ██║████╗  ██║████╗  ██║╚██╗ ██╔╝    ██╔════╝██║  ██║██╔════╝████╗  ██║:
-:██████╔╝██║   ██║██╔██╗ ██║██╔██╗ ██║ ╚████╔╝     ██║     ███████║█████╗  ██╔██╗ ██║:
-:██╔══██╗██║   ██║██║╚██╗██║██║╚██╗██║  ╚██╔╝      ██║     ██╔══██║██╔══╝  ██║╚██╗██║:
-:██████╔╝╚██████╔╝██║ ╚████║██║ ╚████║   ██║       ╚██████╗██║  ██║███████╗██║ ╚████║:
-:╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝   ╚═╝        ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝:
-······················································································
-```
+非常简单，直接参考官方文档即可：
 
-### 接口规范
+[Download Ollama](https://ollama.com/download)
 
-这里使用 [OpenAI API chat 的统一规范格式][https://platform.openai.com/docs/api-reference/chat/create)，大部分模型和平台都有这个接口规范的：
+## 关于离线或内网安装
 
-通过POST的方式发送规范的Json格式请求到指定服务器，并接受返回的结果即可
+Ollama的部署已经非常简单，通常只需要下载好安装包即可通过文件传输软件传输并安装，Linux稍微麻烦一点点，可以参考：
 
-json格式：
+* [ollama/docs/linux.md at main · ollama/ollama](https://github.com/ollama/ollama/blob/main/docs/linux.md)
+* [离线部署大模型：ollama+deepseek+open-webui安装使用方法及常见问题解决 - 雨梦山人 - 博客园](https://www.cnblogs.com/shanren/p/18789753)
 
-```json
-curl https://api.openai.com/v1/chat/completions \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer $OPENAI_API_KEY" \
-  -d '{
-    "model": "gpt-4o",
-    "messages": [
-      {
-        "role": "system",
-        "content": "You are a helpful assistant."
-      },
-      {
-        "role": "user",
-        "content": "Hello!"
-      }
-    ]
-  }'
+部署完成后，只需要在能联网的平台中下载好模型文件，将模型文件夹上传至指定或默认的 `OLLAMA_MODELS`模型目录下即可
 
-```
-
-**任何时候都需要：**
-
-* url：服务器地址
-* model：模型名字
-* messages：发送的请求类型和内容：
-
-  * **`system`** ：
-
-    * **作用** ： System 角色用于提供通知模型行为的设置信息或上下文。这可能包括有关对话应如何进行的说明或指南。
-    * **何时使用** ：您可以使用此角色为交互设置阶段。例如，如果您希望模型在整个对话中保持正式的语气，或者如果您需要指定规则（例如避免某些话题）。
-  * **`user`**：
-
-    * **作用** ： 此角色代表对话中的人类用户。来自用户的输入将指导对话并提示助手的响应。
-    * **何时使用** ：每当人类用户发表声明或提出问题时。这是标准交互中最常用的角色。
-  * **`agent`** ：
-
-    * **功能简介** ：这是模型本身的作用，根据系统设置的上下文响应用户输入。
-  * * **何时使用** ：当模型回复用户的查询或遵循系统的指示时，模型会自动代入此角色。
-
-### 大语言模型平台（Ollama LLM）
+## Ollama 配置项
 
 以下任意一种平台均可使用统一的OpenAI规范接口，所以都只用更改网址、API Key和model名称即可！
 
@@ -94,11 +49,11 @@ curl https://api.openai.com/v1/chat/completions \
      http://localhost:3001/api/v1/openai/chat/completions
      ```
 
-### 然后就是Unity C#代码的简单解析：
+### Unity C#代码的简单调用：
 
 #### 处理发送信息
 
-这个连接可以帮助你理解：[聊天接口 /v1/chat/completions - API2D][https://api2d-doc.apifox.cn/)
+这个连接可以帮助你理解：[聊天接口 /v1/chat/completions - API2D](https://api2d-doc.apifox.cn/)
 
 为了通过规范且整洁的方式生成json信息，我们通过创建C# Class的Object并通过Newtonsoft. Json强制转换为json格式:JsonConvert.SerializeObject())
 

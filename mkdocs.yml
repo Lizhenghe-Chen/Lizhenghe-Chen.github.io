@@ -198,7 +198,10 @@ nav:
           - docs/MetaHuman/index.md
           - docs/MetaHuman/Agent.md
           - docs/MetaHuman/AICollections.md
-          - docs/MetaHuman/LocalLLM.md
+          - LLM:
+              - docs/MetaHuman/LLM/LocalLLM.md
+              - docs/MetaHuman/LLM/Ollama.md
+              - docs/MetaHuman/LLM/vLLM.md
           - Sherpa ASR STT模块:
               - docs/MetaHuman/Sherpa Onnx ASR STT实战.md
               - docs/MetaHuman/Sherpa-onnx STT Windows.md
