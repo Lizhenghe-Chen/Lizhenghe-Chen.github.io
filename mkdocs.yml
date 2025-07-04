@@ -222,6 +222,7 @@ nav:
           - docs/MacOS/pythonSetUp.md
       - Other:
           - docs/Other/index.md
+          - docs/Other/VSCodeServerOfflineSetup.md
           - docs/Other/CanonLensesComparison.md
           - docs/Other/BunnyChenDroneFramwork.md
           - docs/Other/广州落户.md

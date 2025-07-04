@@ -67,8 +67,8 @@ vLLM会被安装在虚拟环境中，不需要额外安装软件，这就是为�
    from openai import OpenAI
 
    client = OpenAI(
-       base_url = 'http://10.120.47.138:11434/v1',
-       api_key='', # required, but unused
+       base_url = 'http://yourIp:11434/v1',
+       api_key='dummy_key', # required, but unused
    )
 
    response = client.chat.completions.create(
