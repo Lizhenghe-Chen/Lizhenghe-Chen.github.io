@@ -4,7 +4,7 @@ date: 2025-06-09
 authors: [bunnychen]
 draft: true
 ---
-
+<!-- more -->
 ??? 萝卜青菜各有所爱  
     千人千茶不同味，万人同道不同心。
 
@@ -31,3 +31,8 @@ draft: true
 
 ??? 喜欢你好像上辈子的事情  
     我以前真心囍歡你。为什么是繁体字？因为繁体字是以前的字，喜欢你也是以前的事。
+
+??? 找不到真爱怎么办  
+    If you can't find true love, work hard, make friends, make money and enjoy your single life in peace.
+    Nobody has ever died from being single, but many people have died from being in with the wrong partner.
+    Life is too short to be wasting your time on the wrong person.

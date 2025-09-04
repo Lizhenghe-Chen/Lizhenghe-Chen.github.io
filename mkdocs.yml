@@ -189,6 +189,7 @@ nav:
       - AI Tools:
           - docs/AINotes/index.md
           - docs/AINotes/AnythingLLMVectorData.md
+          - docs/AINotes/LLMAgent.md
           - docs/AINotes/CodeFormer.md
           - docs/AINotes/ComicFactory.md
           - docs/AINotes/CosyVioce.md

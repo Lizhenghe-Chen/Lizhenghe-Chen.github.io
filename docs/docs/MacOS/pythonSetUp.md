@@ -8,7 +8,7 @@
 
 无需卸载或者安装新的python，只需要找到指定的python目录即可，为了能够显示隐藏的文件，需要先在终端执行：[Mac 访达 (Finder) 显示隐藏文件和文件夹的方法_finder 显示隐藏文件-CSDN博客](https://blog.csdn.net/sdnuwjw/article/details/112439193)
 
-### **方chon z法 1：将 `/Users/用户名/Library/Python/3.9/bin`添加到 `PATH`环境变量**
+### **方法 1：将 `/Users/用户名/Library/Python/3.9/bin`添加到 `PATH`环境变量**
 
 1. **打开终端** 。
 2. 先在访达中找到对应的python路径:
@@ -67,3 +67,69 @@
 ## 方法2:
 
 [Mac下关于pip和pip3的正确解锁方式_mac which pip-CSDN博客](https://blog.csdn.net/u014259820/article/details/100580970)
+
+## 方法3
+
+要让 zsh 默认使用 `/usr/bin/python3`（macOS 自带的 Python 3），你可以通过以下步骤实现：
+
+### ✅ 步骤一：确认路径
+
+你已经有：
+
+```bash
+where python3
+```
+
+输出中包含了 `/usr/bin/python3`，说明系统自带 Python 3 是存在的。
+
+### ✅ 步骤二：修改 `.zshrc`
+
+打开终端，编辑你的 zsh 配置文件：
+
+```bash
+nano ~/.zshrc
+```
+
+在文件末尾添加以下内容：
+
+```bash
+alias python3='/usr/bin/python3'
+alias python='/usr/bin/python3'
+```
+
+保存并退出（在 nano 中按 `Ctrl+O` 回车保存，`Ctrl+X` 退出）。
+
+### ✅ 步骤三：让配置生效
+
+执行：
+
+```bash
+source ~/.zshrc
+```
+
+### ✅ 步骤四：验证是否成功
+
+输入以下命令确认使用的是 `/usr/bin/python3`：
+
+```bash
+which python
+which python3
+python --version
+```
+
+如果输出的是：
+
+```
+/usr/bin/python3
+```
+
+并且版本号对应 macOS 自带的 Python（通常是 3.8 或 3.9），说明设置成功。
+
+---
+
+### 🔒 注意事项
+
+- 不要删除 `/usr/bin/python3`，它是 macOS 命令行工具的一部分，删除可能影响系统工具（如 `git`、`lldb` 等）。
+- 如果你使用的是 Homebrew 安装的 Python，它默认会覆盖 `/usr/local/bin/python3`，但通过上述 `alias` 方式可以强制使用系统版本。
+
+如需恢复默认行为，只需删除或注释掉 `.zshrc` 中的 `alias` 行并重新 `source ~/.zshrc` 即可。
